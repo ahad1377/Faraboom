@@ -163,5 +163,12 @@
     "C:\\Users\\Neati\\.nuget\\packages\\zarinpal-sdk\\0.0.8\\zarinpal-sdk.0.0.8.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\zarinpaldriver\\1.2.0\\zarinpaldriver.1.2.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

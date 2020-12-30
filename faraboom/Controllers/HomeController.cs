@@ -60,7 +60,24 @@ namespace faraboom.Controllers {
                 ViewBag.khadamat = lb;
                    }
             }
-            
+              ///خدمات ما 
+            var qqcat=db.tbl_category.Where(a => a.NameCat=="سازمانها و مراکز طرف قرارداد")?.SingleOrDefault ();
+            if (qcat != null)
+            {
+                var qbl=db.Tbl_Blog.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
+                List<Tb_Blog> lb=new List<Tb_Blog>();
+                foreach (var item in qbl)
+                {
+                    if (item.IdCtegoryBlo==qqcat.Id)
+                    {
+                        lb.Add(item);
+                    }
+                }
+
+                if (lb != null) {
+                ViewBag.sazeman = lb;
+                   }
+            }
             
  
             //////////////////////////////////////////////////////////////////slider
@@ -143,6 +160,12 @@ namespace faraboom.Controllers {
                 error = null;
             }
             return View ();
+        }
+        
+        public IActionResult khadamat()
+        {
+          var qcat=db.tbl_category.Where(a => a.NameCat=="خدمات ما")?.SingleOrDefault ();
+          return RedirectToAction("index","blog",new{id=qcat.Id });
         }
 
     }
