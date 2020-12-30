@@ -38,11 +38,11 @@ namespace faraboom.Controllers
         }
 
 
-        public IActionResult details(int id)
+        public IActionResult details(int? id)
         {
            ////////////////////////////////////////////////////////////////////////////////////////////////address
           
-           var gallery=db.tb_ImageGalleries.Where(a=> a.Language==ln &&  a.IdGallery==id).OrderByDescending(a=>a.Id).ToList();
+           var gallery=db.tb_ImageGalleries.OrderByDescending(a=>a.Id).ToList();
             if (gallery != null)
             {
                   ViewBag.gallery=gallery;
