@@ -167,6 +167,13 @@ namespace faraboom.Controllers {
           var qcat=db.tbl_category.Where(a => a.NameCat=="خدمات ما")?.SingleOrDefault ();
           return RedirectToAction("index","blog",new{id=qcat.Id });
         }
+         public IActionResult Faq()
+        {
+          var qcat=db.tbl_category.Where(a => a.NameCat=="سوالات متداول")?.SingleOrDefault ();
+          var p=db.Tbl_Blog.Where (a => a.Language == ln && a.IdCtegoryBlo== qcat.Id ).OrderByDescending (a => a.Id).FirstOrDefault();
+          return RedirectToAction("details","blog",new{id=p.Id });
+        }
+
 
         public IActionResult info()
         {
