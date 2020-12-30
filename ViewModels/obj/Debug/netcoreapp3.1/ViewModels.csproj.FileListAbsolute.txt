@@ -82,6 +82,20 @@ c:\Users\123\Desktop\nika\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.C
 c:\Users\123\Desktop\nika\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CopyComplete
 c:\Users\123\Desktop\nika\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
 c:\Users\123\Desktop\nika\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb
+<<<<<<< HEAD
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.deps.json
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.dll
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.pdb
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfo.cs
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CopyComplete
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
+c:\Users\Neati\Desktop\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb
+=======
 c:\Users\123\Desktop\Nikatak\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.deps.json
 c:\Users\123\Desktop\Nikatak\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.dll
 c:\Users\123\Desktop\Nikatak\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.pdb
@@ -94,3 +108,4 @@ c:\Users\123\Desktop\Nikatak\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.cspro
 c:\Users\123\Desktop\Nikatak\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CopyComplete
 c:\Users\123\Desktop\Nikatak\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
 c:\Users\123\Desktop\Nikatak\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb
+>>>>>>> 6647465521f956dd6405e1e76b1c62e85dc00306
