@@ -1,0 +1,84 @@
+d:\Web Programming\HampadGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+d:\Web Programming\HampadGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+d:\Web Programming\HampadGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+d:\Web Programming\HampadGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+d:\Web Programming\HampadGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+d:\Web Programming\HampadGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+g:\.Net Core\hampadco\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+g:\.Net Core\hampadco\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+g:\.Net Core\hampadco\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+g:\.Net Core\hampadco\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+g:\.Net Core\hampadco\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+g:\.Net Core\hampadco\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\7StarGit\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\7Star98.9.2\hampad\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+c:\Users\Neati\Desktop\SevenStar\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+c:\Users\Neati\Desktop\SevenStar\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+c:\Users\Neati\Desktop\SevenStar\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+c:\Users\Neati\Desktop\SevenStar\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\SevenStar\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\SevenStar\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\SevenStar9909\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+C:\Users\123\Desktop\nika\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\123\Desktop\nika\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\123\Desktop\nika\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\123\Desktop\nika\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\123\Desktop\nika\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
