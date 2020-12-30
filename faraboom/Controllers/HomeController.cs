@@ -175,5 +175,11 @@ namespace faraboom.Controllers {
         }
 
 
+        public IActionResult info()
+        {
+          var qcat=db.tbl_category.Where(a => a.NameCat=="اطلاعیه های جدید")?.SingleOrDefault ();
+          return RedirectToAction("index","blog",new{id=qcat.Id });
+        }
+
     }
 }

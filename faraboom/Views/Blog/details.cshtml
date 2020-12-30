@@ -23,7 +23,7 @@
                     <img src="~/fileupload/@Model.ImageMainBlo" class="img-fluid rad25 pb-3 w-75">
                     @if (Model.FullTextBlo != null)
                     {
-                                              @Html.Raw(Model.FullTextBlo.Replace("contenteditable=", "").Replace("left: 388.859px; top: 107.899px","display:none"))
+                                              @Html.Raw(Model.FullTextBlo.Replace("contenteditable=", "").Replace("left: 388.859px; top: 107.899px","display:none").Replace("ql-tooltip ql-hidden"," d-none"))
 
                     }
 
