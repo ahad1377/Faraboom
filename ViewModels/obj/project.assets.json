@@ -5841,11 +5841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\123\\Desktop\\nika\\ViewModels\\ViewModels.csproj",
+      "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
-      "projectPath": "c:\\Users\\123\\Desktop\\nika\\ViewModels\\ViewModels.csproj",
+      "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\123\\Desktop\\nika\\ViewModels\\obj\\",
+      "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5859,8 +5859,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\123\\Desktop\\nika\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "c:\\Users\\123\\Desktop\\nika\\DataLayer\\DataLayer.csproj"
+            "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj"
             }
           }
         }

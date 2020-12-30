@@ -4,13 +4,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-6 mb-3">
-                        <a href="/home/Blog"><img src="~/site/Images/banner1-min-1.png" class="img-fluid rad12"></a>
+                        <a href="/blog/index"><img src="~/site/Images/banner1-min-1.png" class="img-fluid rad12"></a>
                     </div>
                     <div class="col-lg-12 col-6 mb-3">
-                        <a href="/home/services"><img src="~/site/Images/banner1-min-3.png" class="img-fluid rad12"></a>
+                        <a href="/home/khadamat"><img src="~/site/Images/banner1-min-3.png" class="img-fluid rad12"></a>
                     </div>
                     <div class="col-lg-12 col-6 mb-3">
-                        <a href="/#"><img src="~/site/Images/banner1-min-2.png" class="img-fluid rad12"></a>
+                        <a href="/home/info"><img src="~/site/Images/banner1-min-2.png" class="img-fluid rad12"></a>
                     </div>
                     <div class="col-lg-12 col-6 mb-2">
                         <a href="/home/ContactUs"><img src="~/site/Images/banner1-min-4.png" class="img-fluid rad12"></a>
@@ -131,87 +131,17 @@
     <h5 class="IRANSansWeb_Medium bt-color">  سازمانها و مراکز طرف قرارداد  </h5>
     <p> سازمانها و مراکز طرف قرارداد نیکا تک</p>
     <div id="owl-province" class="owl-carousel">
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-1.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2"> مشاوره رتبه بندی اعتبار ایران</p>
+        @foreach (var item in ViewBag.sazeman)
+        {
+             <div class="card mx-2">
+            <a href="/blog/details/@item.Id">
+                <img src="~/fileupload/@item.ImageMainBlo" class="rad25">
+                <p class="IRANSansWeb_Medium pt-2"> @item.TitleBLo</p>
             </a>
         </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-2.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">بیمه ما</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-3.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">  پست جمهوری اسلامی ایران</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-4.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">سازمان فناوری و اطلاعات ایران</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-5.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">سامانه جامع سجام</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-6.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">شرکت فرابوم</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-7.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">آسیاتک</p>
-            </a>
-        </div>
-        <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-8.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">امداد خودرو ایران</p>
-            </a>
-        </div>
-
-
-         <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-9.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">شرکت لایزر </p>
-            </a>
-        </div>
-
-
-         <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-10.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">  بیمه سرمد</p>
-            </a>
-        </div>
-
-        
-         <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-11.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">   پرداخت کارت شاپرک</p>
-            </a>
-        </div>
-
-        
-         <div class="card mx-2">
-            <a href="/#">
-                <img src="~/site/Images/customers/customer-12.jpg" class="rad25">
-                <p class="IRANSansWeb_Medium pt-2">  راشید </p>
-            </a>
-        </div>
-
+        }
+       
+       
         
 
 

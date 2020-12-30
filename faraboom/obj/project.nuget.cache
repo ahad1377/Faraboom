@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9oZl7phh9JObXVIeZ2dykDStsCrXd5sCyZLA/yXxYknWSRzqNiVKC2x0bXNuROvVo1pbWDKD1w37BWxt3gToww==",
+  "dgSpecHash": "9D7wDNH8BCuq+MUxygSEzh3/e5m1VYk/IIKA1yzXhrDP/rDjvvVgkAm6cYCQsu0JRj0h7tZj7xeLoPTJ1AFEKg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\123\\Desktop\\nika\\faraboom\\faraboom.csproj",
+  "projectFilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\faraboom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\123\\.nuget\\packages\\mailkit\\2.10.0\\mailkit.2.10.0.nupkg.sha512",
     "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

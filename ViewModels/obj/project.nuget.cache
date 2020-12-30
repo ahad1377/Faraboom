@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMfNFBHz4+uaWN5lzIbh/Cg2lP6jVc/8QC3TowSstyavicjESXjozYmR/MAyaM6KtECZrpGIyd8tD16l8c7fBg==",
+  "dgSpecHash": "nWOk6E1+kz3WesSRn86ELmArfNTuvrqDQhA/5AhNJQely1lfVxJICWFOg2pEYX1pa6Qz5cVKenJcXZAyfqp9qw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\123\\Desktop\\nika\\ViewModels\\ViewModels.csproj",
+  "projectFilePath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -5672,11 +5672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\Desktop\\nika\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "C:\\Users\\123\\Desktop\\nika\\DataLayer\\DataLayer.csproj",
+      "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\123\\Desktop\\nika\\DataLayer\\obj\\",
+      "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
