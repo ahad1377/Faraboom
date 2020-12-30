@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\sender.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\order\\sender.cshtml",
       "FileKind": "mvc"
