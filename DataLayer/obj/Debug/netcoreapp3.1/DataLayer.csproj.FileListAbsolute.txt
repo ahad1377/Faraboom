@@ -82,3 +82,15 @@ C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.Cor
 C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
 C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 C:\Users\123\Desktop\nika\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+c:\Users\Neati\Desktop\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
