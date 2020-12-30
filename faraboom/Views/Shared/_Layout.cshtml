@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <title>وبسایت نیکاتک</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -23,42 +24,51 @@
     <script src="~/site/Js/sina-nav.min.js"></script>
     <script src="~/admin/assets/js/Date.js"></script>
 
+
+
     <!--<link href="~/Site/Css/all.min.css" rel="stylesheet" />
     <script src="~/site/Js/all.min.js"></script>-->
 
+
+
+
     <link href="~/Site/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <script src="~/site/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-    <!BEGIN RAYCHAT CODE--> <script type="text/javascript">!function(){function t(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,localStorage.getItem("rayToken")?t.src="https://app.raychat.io/scripts/js/"+o+"?rid="+localStorage.getItem("rayToken")+"&href="+window.location.href:t.src="https://app.raychat.io/scripts/js/"+o+"?href="+window.location.href;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}var e=document,a=window,o="6e0aa69c-a215-4507-a271-034e56fd80a2";"complete"==e.readyState?t():a.attachEvent?a.attachEvent("onload",t):a.addEventListener("load",t,!1)}();</script> <!END RAYCHAT CODE-->
+    <!BEGIN RAYCHAT CODE-->
+        <script
+            type="text/javascript">!function () { function t() { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, localStorage.getItem("rayToken") ? t.src = "https://app.raychat.io/scripts/js/" + o + "?rid=" + localStorage.getItem("rayToken") + "&href=" + window.location.href : t.src = "https://app.raychat.io/scripts/js/" + o + "?href=" + window.location.href; var e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) } var e = document, a = window, o = "6e0aa69c-a215-4507-a271-034e56fd80a2"; "complete" == e.readyState ? t() : a.attachEvent ? a.attachEvent("onload", t) : a.addEventListener("load", t, !1) }();</script>
+        <!END RAYCHAT CODE-->
 
-    <!--[if lt IE 9]>
+            <!--[if lt IE 9]>
     <script src="~/site/https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="~/site/https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
+
 <body id="home">
-@* 
-    <div id="fixed-social">
+    @*
+        <div id="fixed-social">
         <div>
-            <a href="/#" class="fixed-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="/#" class="fixed-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
         <div>
-            <a href="/#" class="fixed-instagrem" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-
-        <div>
-            <a href="/#" class="fixed-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-        </div>
-        <div>
-            <a href="/#" class="fixed-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div>
-            <a href="/#" class="fixed-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="/#" class="fixed-instagrem" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
 
+        <div>
+        <a href="/#" class="fixed-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div>
+        <a href="/#" class="fixed-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div>
+        <a href="/#" class="fixed-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
 
-    </div> *@
-    
+
+        </div> *@
+
     <section id="tophead" class="container-fluid p-2 grad-bg">
         <div class="container">
             <div class="row">
@@ -69,7 +79,9 @@
                 <div class="col-lg-3 col-6 mr-auto">
                     <div class="d-flex flex-column">
                         <span class="text-white">
-                            							<span    >  <script>document.write("<div style=' text-align:right;font-size:13px;'> " +"امروز"+":"  +week[d]+" "+day+" "+months[month-1]+" "+ year + "</div>");</script></span>
+                            <span>
+                                <script>document.write("<div style=' text-align:right;font-size:13px;'> " + "امروز" + ":" + week[d] + " " + day + " " + months[month - 1] + " " + year + "</div>");</script>
+                            </span>
 
                         </span>
                         <form class="d-sm-block d-none">
@@ -99,29 +111,30 @@
                     <ul class="pt-2">
                         @* <li>
                             <a id="loginbtn" href="/login/Login" class="btn btn-link p-1 ml-2">
-                                <img src="~/site/Images/Svg/login.svg"> ورود
+                            <img src="~/site/Images/Svg/login.svg"> ورود
                             </a>
-                        </li> *@
+                            </li> *@
                         <li>
                             @if (User.Identity.Name == "سعید عطایی")
                             {
                                 <a id="loginbtn" href="/adminsite/home/index" class="btn btn-link p-1 ml-2">
-                                <img src="~/site/Images/Svg/user.svg">ورود به پنل 
-                                  </a>
+                                    <img src="~/site/Images/Svg/user.svg">ورود به پنل
+                                </a>
                             }
                             else if (User.Identity.Name == "admin")
                             {
                                 <a id="loginbtn" href="/admin/home/index" class="btn btn-link p-1 ml-2">
-                                <img src="~/site/Images/Svg/user.svg">ورود به پنل
-                                  </a>
+                                    <img src="~/site/Images/Svg/user.svg">ورود به پنل
+                                </a>
                             }
-                            else{
+                            else
+                            {
                                 <a id="loginbtn" href="/login/login" class="btn btn-link p-1 ml-2">
-                                <img src="~/site/Images/Svg/user.svg">عضویت نمایندگان
-                                  </a>
+                                    <img src="~/site/Images/Svg/user.svg">عضویت نمایندگان
+                                </a>
                             }
-                            
-                            
+
+
                         </li>
                     </ul>
                 </div>
@@ -189,8 +202,9 @@
                         <li><a href="/home/Delegate">معرفی نمایندگان </a></li>
 
                         <li class="dropdown">
-                            @* <a href="/#" class="dropdown-toggle" data-toggle="dropdown">برگه ها<i class="fa  fa-chevron-down pr-2"></i></a>
-                             <ul class="dropdown-menu">
+                            @* <a href="/#" class="dropdown-toggle" data-toggle="dropdown">برگه ها<i class="fa
+                                fa-chevron-down pr-2"></i></a>
+                                <ul class="dropdown-menu">
                                 <li><a href="~/Site/Blogdetails.html">جزئیات اخبار</a></li>
                                 <li><a href="~/Site/Component.html">المان ها</a></li>
                                 <li><a href="~/Site/Features.html">ویژگی ها</a></li>
@@ -198,31 +212,33 @@
                                 <li><a href="~/Site/Price.html">جدول تعرفه</a></li>
                                 <li><a href="~/Site/404.html">صفحه 404</a></li>
 
-                            </ul>  *@
+                                </ul> *@
                         </li>
 
 
                         @* <li class="dropdown">
-                            <a href="/#" class="dropdown-toggle" data-toggle="dropdown">سایر برگه ها<i class="fa  fa-chevron-down pr-2"></i></a>
+                            <a href="/#" class="dropdown-toggle" data-toggle="dropdown">سایر برگه ها<i class="fa
+                            fa-chevron-down pr-2"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="~/Site/Service.html">خدمات</a></li>
-                                <li><a href="~/Site/Success.html">ثبت موفق</a></li>
-                                <li><a href="~/Site/UnSuccess.html">ثبت ناموفق</a></li>
-                                <li><a href="~/Site/Waiting.html">صفحه انتظار</a></li>
-                                <li><a href="~/Site/Blank.html">صفحه خالی</a></li>
+                            <li><a href="~/Site/Service.html">خدمات</a></li>
+                            <li><a href="~/Site/Success.html">ثبت موفق</a></li>
+                            <li><a href="~/Site/UnSuccess.html">ثبت ناموفق</a></li>
+                            <li><a href="~/Site/Waiting.html">صفحه انتظار</a></li>
+                            <li><a href="~/Site/Blank.html">صفحه خالی</a></li>
 
-                                <!--<li class="dropdown">
-                                    <a href="/#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-chevron-left float-left"></i>زیر منو</a>
-                                    <ul class="dropdown-menu drop">
-                                        <li><a href="/#">زیر منو 1</a></li>
-                                        <li><a href="/#">زیر منو 2</a></li>
-                                        <li><a href="/#">زیر منو 3</a></li>
-                                    </ul>
-                                </li>-->
+                            <!--<li class="dropdown">
+                            <a href="/#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-chevron-left
+                            float-left"></i>زیر منو</a>
+                            <ul class="dropdown-menu drop">
+                            <li><a href="/#">زیر منو 1</a></li>
+                            <li><a href="/#">زیر منو 2</a></li>
+                            <li><a href="/#">زیر منو 3</a></li>
                             </ul>
-                        </li> *@
-                 
-                     <li><a href="/home/AboutUs">درباره ما</a></li>
+                            </li>-->
+                            </ul>
+                            </li> *@
+
+                        <li><a href="/home/AboutUs">درباره ما</a></li>
                         <li><a href="/home/ContactUs">ارتباط با ما</a></li>
                     </ul>
 
@@ -231,7 +247,7 @@
         </nav>
     </header>
 
-@RenderBody()
+    @RenderBody()
 
     <footer class="rel-footer mt-5">
         <div id="footer-content">
@@ -272,51 +288,76 @@
                             <li>
                                 <a href="/login/Login" target="_blank" title="">عضویت</a>
                             </li>
-                              <li>
+                            <li>
                                 <a href="/home/Managers" target="_blank" title=""> معرفی مدیران</a>
                             </li>
-                            
+
                             <li>
                                 <a href="/home/AboutUs" target="_blank" title="">درباره ما</a>
                             </li>
                             <li>
-                                <a  href="/home/ContactUs" target="_blank" title="">ارتباط با ما </a>
+                                <a href="/home/ContactUs" target="_blank" title="">ارتباط با ما </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-5 col-sm-6 pr-lg-4 py-3 IRANSansWeb_FaNum  order-lg-3  order-2">
                         <h5 class="IRANSansWeb_Medium"> ارتباط با ما : </h5>
-                        <p><i class="fas fa-2x fa-map-marker-alt ml-2"></i>آدرس : تهران، بلوار میرداماد میدان مادر خیابان وزیری پور پلاک2 واحد 7  </p>
+                        <p><i class="fas fa-2x fa-map-marker-alt ml-2"></i>آدرس : تهران، بلوار میرداماد میدان مادر
+                            خیابان وزیری پور پلاک2 واحد 7 </p>
                         <p><i class="fas fa-2x fa-phone ml-2"></i>تلفن : 02191316789</p>
                         <p><i class="fas fa-2x fa-mobile-alt ml-2"></i>تلفن همراه : 09220648677</p>
                         <p><i class="fas fa-2x fa-fax ml-2"></i>نمابر : 09220648677</p>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-sm-4 py-3 order-lg-4 order-4">
-                        <h5 class="IRANSansWeb_Medium">مجوزها  : </h5>
+                        <h5 class="IRANSansWeb_Medium">مجوزها : </h5>
                         <div class="d-flex flex-column">
-<a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=174915&Code=j2ROA2wwZLyduASWvqfH"><img referrerpolicy="origin" src="~/Site/Images/logoenemad.png" alt="" style="cursor:pointer" id="j2ROA2wwZLyduASWvqfH"></a>
+                            <a referrerpolicy="origin" target="_blank"
+                                href="https://trustseal.enamad.ir/?id=174915&Code=j2ROA2wwZLyduASWvqfH"><img
+                                    referrerpolicy="origin" src="~/Site/Images/logoenemad.png" alt=""
+                                    style="cursor:pointer" id="j2ROA2wwZLyduASWvqfH"></a>
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
+
+
         <div id="footer-copyright">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12">
-                   <p class="text-white ">
+                        <a href=""><img style="width: 30px; height: 30px;" src="~/Site/Images/SocialNetwork/Instagram.png" alt=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer-copyright">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-white ">
                             کلیه حقوق محفوظ می باشد .
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </footer>
 
 
-    
+
     <script src="~/site/Js/sina-nav.min.js"></script>
 
 </body>
+
 </html>

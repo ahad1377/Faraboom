@@ -11,11 +11,14 @@
           <tr>
           <th></th>
           <th>ردیف</th>
+          <th>نام و نام خانوادگی</th>
           <th> نام  کاربر </th>
           <th> شماره تماس  </th>
            <th>  رمز </th>
              <th>  آدرس </th>
-          <th> عملیات</th>
+          <th>کارت ملی</th>
+          <th>وضعیت</th>
+          <th>عملیات </th>
         </tr>
       </thead>
       <tbody>
@@ -24,22 +27,31 @@
   int i=1;
     foreach (var item in ViewBag.list)
     {
+       @if (item.UserNameUs == "admin" || item.UserNameUs == "info@nikatak.ir")
+       {
+         
+       }else
+       {
           <tr>
           <td></td>
           <td class="product-category"> @i</td>
+           <td class="product-category"> @item.NameFamily</td> 
           <td class="product-name">@item.UserNameUs</td>
             <td class="product-category">@item.PhoneUs </td>
             <td class="product-category">@item.PasswordUs </td>
             <td class="product-category">@item.AddressUs </td>
             
              <td class="product-category">
-               <img src="/fileupload/@item.ProfileImageUs" style="width: 25px;border-radius: 50%;" alt="">
+               <a href="/fileupload/@item.ProfileImageUs" target="blank">مشاهده</a>
+               
                 </td>
            <td class="product-action">
-             <div class="col-lg-3 col-md-3 mb-1">
+             <div class="mb-1">
                 <div class="btn-group" role="group" aria-label="Basic example">
                   
-                    <a href="/adminsite/users/del/@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('آیا از حذف رکورد مورد نظر مطمئن هستید؟')">حذف</a>
+                    <a href="#" class="btn btn-success btn-sm" onclick="return confirm('آیا از تایید رکورد مورد نظر مطمئن هستید؟')">تایید</a>
+                    <a href="#" class="btn btn-warning btn-sm" onclick="return confirm('آیا از رد رکورد مورد نظر مطمئن هستید؟')">عدم تایید</a>
+
                   @* <button type="button" class="btn btn-success  btn-sm">ارسال</button>
                   <button type="button" class="btn btn-warning  btn-sm">  منتظراقدام</button> *@
                 </div>
@@ -48,6 +60,8 @@
         </tr>
         i++;
 
+       }
+         
     }
 }
       
