@@ -3104,3 +3104,5 @@ c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\V
 >>>>>>> aa2ed3b625c83385f29bc8bf619256f3025a1de9
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Expert\details.cshtml.g.cs
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Expert\index.cshtml.g.cs
+c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Agancy\details.cshtml.g.cs
+c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Agancy\index.cshtml.g.cs
