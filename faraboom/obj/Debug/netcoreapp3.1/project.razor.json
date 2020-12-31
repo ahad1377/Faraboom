@@ -14427,11 +14427,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Faq.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Faq.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Test\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Test\\Index.cshtml",
       "FileKind": "mvc"
@@ -14447,28 +14442,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Delegate.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Delegate.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Contact\\index.cshtml",
       "TargetPath": "Views\\Contact\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\ContactUs.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\ContactUs.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\sender.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\order\\sender.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\AboutUs.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\AboutUs.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14527,11 +14507,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\MapLogin.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\MapLogin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\product\\update.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\product\\update.cshtml",
       "FileKind": "mvc"
@@ -14542,18 +14517,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Ourteam.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Ourteam.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\OwnerCard\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\OwnerCard\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Managers.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Managers.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14702,11 +14667,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Gallery.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Gallery.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14719,11 +14679,6 @@
     {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\agency\\index.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\agency\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Blog.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Blog.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14797,11 +14752,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Sourcehelp\\List.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\Sourcehelp\\List.cshtml",
       "FileKind": "mvc"
@@ -14822,11 +14772,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Services.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Services.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\slider\\index.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\slider\\index.cshtml",
       "FileKind": "mvc"
@@ -14839,11 +14784,6 @@
     {
       "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Address\\index.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\Address\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Gallery\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
