@@ -29,6 +29,7 @@
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.8",
           "Microsoft.EntityFrameworkCore": "3.1.8",
+          "MimeKit": "2.10.1",
           "NETCore.MailKit": "2.0.3",
           "ViewModels": "1.0.0",
           "ZarinPal-SDK": "0.0.8",
@@ -168,7 +169,7 @@
           "System.Console.Reference": "4.1.2.0",
           "System.Core": "4.0.0.0",
           "System.Data.Common": "4.2.2.0",
-          "System.Data.DataSetExtensions.Reference": "4.0.1.0",
+          "System.Data.DataSetExtensions": "4.0.1.0",
           "System.Data": "4.0.0.0",
           "System.Diagnostics.Contracts": "4.0.4.0",
           "System.Diagnostics.Debug.Reference": "4.1.2.0",
@@ -312,7 +313,7 @@
       },
       "MailKit/2.10.0": {
         "dependencies": {
-          "MimeKit": "2.10.0"
+          "MimeKit": "2.10.1"
         },
         "runtime": {
           "lib/netstandard2.0/MailKit.dll": {
@@ -942,23 +943,22 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
-      "MimeKit/2.10.0": {
+      "MimeKit/2.10.1": {
         "dependencies": {
           "Portable.BouncyCastle": "1.8.8",
           "System.Buffers": "4.5.1",
-          "System.Data.DataSetExtensions": "4.5.0",
           "System.Reflection.TypeExtensions": "4.4.0",
           "System.Security.Cryptography.Pkcs": "4.7.0",
           "System.Text.Encoding.CodePages": "4.5.1"
         },
         "runtime": {
-          "lib/netstandard2.0/MimeKit.dll": {
+          "lib/netstandard2.1/MimeKit.dll": {
             "assemblyVersion": "2.10.0.0",
-            "fileVersion": "2.10.0.0"
+            "fileVersion": "2.10.1.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/MimeKit.dll": {}
+          "lib/netstandard2.1/MimeKit.dll": {}
         }
       },
       "NETCore.MailKit/2.0.3": {
@@ -1259,7 +1259,6 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {},
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -2838,7 +2837,7 @@
         },
         "compileOnly": true
       },
-      "System.Data.DataSetExtensions.Reference/4.0.1.0": {
+      "System.Data.DataSetExtensions/4.0.1.0": {
         "compile": {
           "System.Data.DataSetExtensions.dll": {}
         },
@@ -3972,12 +3971,12 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
-    "MimeKit/2.10.0": {
+    "MimeKit/2.10.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AHbCxNo6Ue98q/r81TKdCisRJSOv5EF0PWctUqhtzjDJx3xeTxguxZHyZy3ATbHfHFDRVR7TeZgmsfRP7dXs6g==",
-      "path": "mimekit/2.10.0",
-      "hashPath": "mimekit.2.10.0.nupkg.sha512"
+      "sha512": "sha512-rBpIsOdgpMvcNraBDgQSSNCk/MVxxFv7VX2Qq1WnFJ4AnvjIU+r12gaKs6r+SRvCEZWvC5CQlKHuoQbIbO/brA==",
+      "path": "mimekit/2.10.1",
+      "hashPath": "mimekit.2.10.1.nupkg.sha512"
     },
     "NETCore.MailKit/2.0.3": {
       "type": "package",
@@ -4244,13 +4243,6 @@
       "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
-    },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "path": "system.data.datasetextensions/4.5.0",
-      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
@@ -5436,7 +5428,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Data.DataSetExtensions.Reference/4.0.1.0": {
+    "System.Data.DataSetExtensions/4.0.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
