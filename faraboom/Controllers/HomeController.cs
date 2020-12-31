@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.Design;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,7 +25,7 @@ namespace faraboom.Controllers {
         //////////////////////////////////////////////////////////
         public IActionResult Index () {
 
-            setdata();
+            setdata ();
             ////////////////////////////////////////////////////////////////////////////////////////////////address
             var address = db.Tbl_Adress.Where (a => a.Language == ln).ToList ();
             if (address != null) {
@@ -43,43 +43,36 @@ namespace faraboom.Controllers {
             }
 
             ///خدمات ما 
-            var qcat=db.tbl_category.Where(a => a.NameCat=="خدمات ما")?.SingleOrDefault ();
-            if (qcat != null)
-            {
-                var qbl=db.Tbl_Blog.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
-                List<Tb_Blog> lb=new List<Tb_Blog>();
-                foreach (var item in qbl)
-                {
-                    if (item.IdCtegoryBlo==qcat.Id)
-                    {
-                        lb.Add(item);
+            var qcat = db.tbl_category.Where (a => a.NameCat == "خدمات ما")?.SingleOrDefault ();
+            if (qcat != null) {
+                var qbl = db.Tbl_Blog.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
+                List<Tb_Blog> lb = new List<Tb_Blog> ();
+                foreach (var item in qbl) {
+                    if (item.IdCtegoryBlo == qcat.Id) {
+                        lb.Add (item);
                     }
                 }
 
                 if (lb != null) {
-                ViewBag.khadamat = lb;
-                   }
+                    ViewBag.khadamat = lb;
+                }
             }
-              ///خدمات ما 
-            var qqcat=db.tbl_category.Where(a => a.NameCat=="سازمانها و مراکز طرف قرارداد")?.SingleOrDefault ();
-            if (qcat != null)
-            {
-                var qbl=db.Tbl_Blog.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
-                List<Tb_Blog> lb=new List<Tb_Blog>();
-                foreach (var item in qbl)
-                {
-                    if (item.IdCtegoryBlo==qqcat.Id)
-                    {
-                        lb.Add(item);
+            ///خدمات ما 
+            var qqcat = db.tbl_category.Where (a => a.NameCat == "سازمانها و مراکز طرف قرارداد")?.SingleOrDefault ();
+            if (qcat != null) {
+                var qbl = db.Tbl_Blog.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
+                List<Tb_Blog> lb = new List<Tb_Blog> ();
+                foreach (var item in qbl) {
+                    if (item.IdCtegoryBlo == qqcat.Id) {
+                        lb.Add (item);
                     }
                 }
 
                 if (lb != null) {
-                ViewBag.sazeman = lb;
-                   }
+                    ViewBag.sazeman = lb;
+                }
             }
-            
- 
+
             //////////////////////////////////////////////////////////////////slider
             var qslider = db.Tbl_Slider.Where (a => a.Language == ln).OrderByDescending (a => a.Id).ToList ();
             if (qslider != null) {
@@ -105,7 +98,7 @@ namespace faraboom.Controllers {
             if (blg != null) {
                 ViewBag.first = blg.OrderByDescending (a => a.Id).Take (2).ToList ();
             }
-            
+
             ///////////////////////////////////////////////////////////////////////////////teaser
             ViewBag.Teaser = db.Tbl_Teaser.Where (a => a.Language == ln).OrderByDescending (a => a.Id).Take (3).ToList ();
             ////////////////////////////////////////////////////////////////////////////////product list
@@ -122,7 +115,7 @@ namespace faraboom.Controllers {
         }
 
         public IActionResult orgincheck (string id) {
-             setdata();
+            setdata ();
             var orgin = db.Tbl_Originality.Where (a => a.HologramCodeOri == id).ToList ();
             if (orgin.Count () != 0) {
                 ///////////////////////////////////////////////////////////list
@@ -138,7 +131,7 @@ namespace faraboom.Controllers {
                         Language = item.Language,
                         DateCreateOri = item.DateCreateOri,
                         img = product.ImageMainPro,
-                        IdProductOri=product.Id
+                        IdProductOri = product.Id
                     };
                     originality.Add (origin);
 
@@ -161,24 +154,31 @@ namespace faraboom.Controllers {
             }
             return View ();
         }
-        
-        public IActionResult khadamat()
-        {
-          var qcat=db.tbl_category.Where(a => a.NameCat=="خدمات ما")?.SingleOrDefault ();
-          return RedirectToAction("index","blog",new{id=qcat.Id });
+
+        public IActionResult khadamat () {
+            var qcat = db.tbl_category.Where (a => a.NameCat == "خدمات ما")?.SingleOrDefault ();
+            return RedirectToAction ("index", "blog", new { id = qcat.Id });
         }
-         public IActionResult Faq()
-        {
-          var qcat=db.tbl_category.Where(a => a.NameCat=="سوالات متداول")?.SingleOrDefault ();
-          var p=db.Tbl_Blog.Where (a => a.Language == ln && a.IdCtegoryBlo== qcat.Id ).OrderByDescending (a => a.Id).FirstOrDefault();
-          return RedirectToAction("details","blog",new{id=p.Id });
+        public IActionResult Faq () {
+            var qcat = db.tbl_category.Where (a => a.NameCat == "سوالات متداول")?.SingleOrDefault ();
+            var p = db.Tbl_Blog.Where (a => a.Language == ln && a.IdCtegoryBlo == qcat.Id).OrderByDescending (a => a.Id).FirstOrDefault ();
+            return RedirectToAction ("details", "blog", new { id = p.Id });
         }
 
+        public IActionResult info () {
+            var qcat = db.tbl_category.Where (a => a.NameCat == "اطلاعیه های جدید")?.SingleOrDefault ();
+            return RedirectToAction ("index", "blog", new { id = qcat.Id });
+        }
+        public IActionResult MapLogin () {
 
-        public IActionResult info()
-        {
-          var qcat=db.tbl_category.Where(a => a.NameCat=="اطلاعیه های جدید")?.SingleOrDefault ();
-          return RedirectToAction("index","blog",new{id=qcat.Id });
+            return View ();
+        }
+        public IActionResult AboutUs () {
+              var qcat = db.tbl_category.Where (a => a.NameCat == "درباره ما")?.SingleOrDefault ();
+            var p = db.Tbl_Blog.Where (a => a.Language == ln && a.IdCtegoryBlo == qcat.Id).OrderByDescending (a => a.Id).FirstOrDefault ();
+            return RedirectToAction ("details", "blog", new { id = p.Id });
+
+            return View ();
         }
 
     }
