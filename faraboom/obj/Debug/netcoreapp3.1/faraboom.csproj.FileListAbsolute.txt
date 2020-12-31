@@ -3083,8 +3083,19 @@ c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\staticwebassets\fa
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\faraboom.dll
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\faraboom.pdb
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\faraboom.genruntimeconfig.cache
-<<<<<<< HEAD
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Contact\index.cshtml.g.cs
-=======
 >>>>>>> 6647465521f956dd6405e1e76b1c62e85dc00306
 >>>>>>> 49647af28f0d5ae7a8323021f0c0a24182ccfc14
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\details.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\AboutUs.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Blog.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\ContactUs.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Delegate.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Faq.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Gallery.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Index.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Managers.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\MapLogin.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Ourteam.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Privacy.cshtml.g.cs
+c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Services.cshtml.g.cs

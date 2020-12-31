@@ -8019,23 +8019,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Neati\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\123\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+      "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\faraboom.csproj",
       "projectName": "faraboom",
-      "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
-      "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\",
+      "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\faraboom.csproj",
+      "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8046,11 +8042,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+            "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj"
             },
-            "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj"
+            "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj"
             }
           }
         }
@@ -8115,16 +8111,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
