@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj": {}
+    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {}
   },
   "projects": {
-    "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
+    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\obj\\",
+        "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -66,21 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj": {
+    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
-        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\obj\\",
+        "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -91,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj"
+              "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -126,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
