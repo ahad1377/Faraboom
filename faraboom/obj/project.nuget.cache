@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BWgDPVuckxLWhsrA/oMTsOeKQM685+si7pwdIz/m44hhCXFOMbTfK2CgT2t2yy6xtLA6B6aFLSMQ6uCcSVyUiA==",
+  "dgSpecHash": "BtV/SBtjmiB6+aQj9GqZFUAY4CBaIGOMW6j0pHGyuOh7dG4uhFnS2FbOJ89dPF+Do48RogeU7movp68Y/osD0A==",
   "success": true,
   "projectFilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "C:\\Users\\Neati\\.nuget\\packages\\mimekit\\2.10.0\\mimekit.2.10.0.nupkg.sha512",
+    "C:\\Users\\Neati\\.nuget\\packages\\mimekit\\2.10.1\\mimekit.2.10.1.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\netcore.mailkit\\2.0.3\\netcore.mailkit.2.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
@@ -89,7 +89,6 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
-    "C:\\Users\\Neati\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
@@ -163,12 +162,5 @@
     "C:\\Users\\Neati\\.nuget\\packages\\zarinpal-sdk\\0.0.8\\zarinpal-sdk.0.0.8.nupkg.sha512",
     "C:\\Users\\Neati\\.nuget\\packages\\zarinpaldriver\\1.2.0\\zarinpaldriver.1.2.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

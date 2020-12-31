@@ -674,21 +674,20 @@
           }
         }
       },
-      "MimeKit/2.10.0": {
+      "MimeKit/2.10.1": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.8.8",
           "System.Buffers": "4.5.1",
-          "System.Data.DataSetExtensions": "4.5.0",
           "System.Reflection.TypeExtensions": "4.4.0",
           "System.Security.Cryptography.Pkcs": "4.7.0",
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/MimeKit.dll": {}
+          "lib/netstandard2.1/MimeKit.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MimeKit.dll": {}
+          "lib/netstandard2.1/MimeKit.dll": {}
         }
       },
       "NETCore.MailKit/2.0.3": {
@@ -1172,15 +1171,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Console.dll": {}
-        }
-      },
-      "System.Data.DataSetExtensions/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -3420,10 +3410,10 @@
         "version.txt"
       ]
     },
-    "MimeKit/2.10.0": {
-      "sha512": "AHbCxNo6Ue98q/r81TKdCisRJSOv5EF0PWctUqhtzjDJx3xeTxguxZHyZy3ATbHfHFDRVR7TeZgmsfRP7dXs6g==",
+    "MimeKit/2.10.1": {
+      "sha512": "rBpIsOdgpMvcNraBDgQSSNCk/MVxxFv7VX2Qq1WnFJ4AnvjIU+r12gaKs6r+SRvCEZWvC5CQlKHuoQbIbO/brA==",
       "type": "package",
-      "path": "mimekit/2.10.0",
+      "path": "mimekit/2.10.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3443,7 +3433,10 @@
         "lib/netstandard2.0/MimeKit.dll",
         "lib/netstandard2.0/MimeKit.pdb",
         "lib/netstandard2.0/MimeKit.xml",
-        "mimekit.2.10.0.nupkg.sha512",
+        "lib/netstandard2.1/MimeKit.dll",
+        "lib/netstandard2.1/MimeKit.pdb",
+        "lib/netstandard2.1/MimeKit.xml",
+        "mimekit.2.10.1.nupkg.sha512",
         "mimekit.nuspec"
       ]
     },
@@ -4413,25 +4406,6 @@
         "ref/xamarinwatchos10/_._",
         "system.console.4.3.0.nupkg.sha512",
         "system.console.nuspec"
-      ]
-    },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "type": "package",
-      "path": "system.data.datasetextensions/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/_._",
-        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "ref/net45/_._",
-        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "system.data.datasetextensions.4.5.0.nupkg.sha512",
-        "system.data.datasetextensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
@@ -8011,6 +7985,7 @@
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.8",
       "Microsoft.EntityFrameworkCore >= 3.1.8",
+      "MimeKit >= 2.10.1",
       "NETCore.MailKit >= 2.0.3",
       "ViewModels >= 1.0.0",
       "ZarinPal-SDK >= 0.0.8",
@@ -8080,6 +8055,10 @@
             "target": "Package",
             "version": "[3.1.8, )"
           },
+          "MimeKit": {
+            "target": "Package",
+            "version": "[2.10.1, )"
+          },
           "NETCore.MailKit": {
             "target": "Package",
             "version": "[2.0.3, )"
@@ -8118,13 +8097,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
