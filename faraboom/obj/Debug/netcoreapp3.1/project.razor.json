@@ -14392,6 +14392,7 @@
   "RootNamespace": "faraboom",
   "Documents": [
     {
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Areas\\Adminsite\\Views\\financial\\index.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\financial\\index.cshtml",
       "FileKind": "mvc"
@@ -14613,10 +14614,234 @@
     },
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Views\\Login\\Login.cshtml",
+=======
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Sourcehelp\\UploadImageSingle.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Shared\\PartialMualtiImage.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Shared\\PartialMualtiImage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\teaser\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\teaser\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index14.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index14.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Services.cshtml",
+      "TargetPath": "Views\\Home\\Services.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Test\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Test\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\experts\\list.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\experts\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\ReserveToken\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\ReserveToken\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Contact\\index.cshtml",
+      "TargetPath": "Views\\Contact\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\sender.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\order\\sender.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\comment\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\comment\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\order\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\RayChat\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\RayChat\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\users\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\users\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Profile\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Profile\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Ourteam.cshtml",
+      "TargetPath": "Views\\Home\\Ourteam.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\financial\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\financial\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Baner\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Baner\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\comment\\Acceptede.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\comment\\Acceptede.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\product\\update.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\product\\update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\logo\\Index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\logo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\OwnerCard\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\OwnerCard\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Gallery.cshtml",
+      "TargetPath": "Views\\Home\\Gallery.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Managers.cshtml",
+      "TargetPath": "Views\\Home\\Managers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index10.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index10.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Msg\\send.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Msg\\send.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\slider\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\slider\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Originality\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Originality\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index7.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index7.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index9.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index9.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Charge\\Invoicebill.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Charge\\Invoicebill.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Test\\Client.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Test\\Client.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Sourcehelp\\DropdownSearch.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Sourcehelp\\DropdownSearch.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Blog\\details.cshtml",
+      "TargetPath": "Views\\Blog\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Login\\Login.cshtml",
+>>>>>>> bb1db4a0b9d6a0b8d62a75efa716e2a320d0917a
       "TargetPath": "Views\\Login\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Areas\\Adminsite\\Views\\comment\\Acceptede.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\comment\\Acceptede.cshtml",
       "FileKind": "mvc"
@@ -14924,6 +15149,315 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Areas\\Adminsite\\Views\\comment\\Notaccepted.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\comment\\Notaccepted.cshtml",
+=======
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Blog.cshtml",
+      "TargetPath": "Views\\Home\\Blog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\ongoing.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\order\\ongoing.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\product\\AddProduct.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\product\\AddProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\AboutUs.cshtml",
+      "TargetPath": "Views\\Home\\AboutUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\blog\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\SocialNetwork\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\SocialNetwork\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\product\\list.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\product\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\financial\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\financial\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index6.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index6.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index8.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index8.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Category\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Category\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\agency\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\agency\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\MoneyTransfer\\Satna.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\MoneyTransfer\\Satna.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Shared\\_MenuPartial.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_MenuPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\agency\\list.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\agency\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Faq.cshtml",
+      "TargetPath": "Views\\Home\\Faq.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\experts\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\experts\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\teaser\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\teaser\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Baner\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Baner\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\Delegate.cshtml",
+      "TargetPath": "Views\\Home\\Delegate.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\gallery\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\gallery\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index3.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index5.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index5.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index13.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index13.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Sourcehelp\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Sourcehelp\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\blog\\list.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\blog\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\slider\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\slider\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Sourcehelp\\UploadImageMulti.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Address\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Address\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Msg\\index.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Msg\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Gallery\\details.cshtml",
+      "TargetPath": "Views\\Gallery\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index2.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index4.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index4.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\comment\\Notaccepted.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\comment\\Notaccepted.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\OAuth\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\OAuth\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\MoneyTransfer\\Internal.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\MoneyTransfer\\Internal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\MoneyTransfer\\Paya.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\MoneyTransfer\\Paya.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\blog\\updateblog.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\blog\\updateblog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Login\\RegisterAgency.cshtml",
+      "TargetPath": "Views\\Login\\RegisterAgency.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Charge\\bill.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Charge\\bill.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\MoneyTransfer\\Card.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\MoneyTransfer\\Card.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\order\\show.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\order\\show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\gallery\\List.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\gallery\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Blog\\index.cshtml",
+      "TargetPath": "Views\\Blog\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Charge\\Charge.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Charge\\Charge.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Msg\\Detailssnd.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Msg\\Detailssnd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Address\\map.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Address\\map.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Charge\\Municipality.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Charge\\Municipality.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\ContactUs.cshtml",
+      "TargetPath": "Views\\Home\\ContactUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index1.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\Home\\MapLogin.cshtml",
+      "TargetPath": "Views\\Home\\MapLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index11.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index11.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Areas\\Adminsite\\Views\\Msg\\Details.cshtml",
+      "TargetPath": "Areas\\Adminsite\\Views\\Msg\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\123\\Desktop\\Nikatak\\faraboom\\Views\\SinglePage\\Index12.cshtml",
+      "TargetPath": "Views\\SinglePage\\Index12.cshtml",
+>>>>>>> bb1db4a0b9d6a0b8d62a75efa716e2a320d0917a
       "FileKind": "mvc"
     }
   ],
