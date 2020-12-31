@@ -43,14 +43,9 @@ namespace faraboom.Controllers
            ////////////////////////////////////////////////////////////////////////////////////////////////address
           
            var gallery=db.tb_ImageGalleries.OrderByDescending(a=>a.Id).ToList();
-            if (gallery != null)
-            {
+            
                   ViewBag.gallery=gallery;
-                 
-            }else
-            {
-                 ViewBag.gallery=null;
-            }
+            
            return View();
         }
         

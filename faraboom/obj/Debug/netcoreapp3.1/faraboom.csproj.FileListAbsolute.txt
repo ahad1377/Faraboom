@@ -3086,6 +3086,7 @@ c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\faraboom.genruntim
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Contact\index.cshtml.g.cs
 >>>>>>> 6647465521f956dd6405e1e76b1c62e85dc00306
 >>>>>>> 49647af28f0d5ae7a8323021f0c0a24182ccfc14
+<<<<<<< HEAD
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\details.cshtml.g.cs
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\AboutUs.cshtml.g.cs
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Blog.cshtml.g.cs
@@ -3099,3 +3100,7 @@ c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Galler
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Ourteam.cshtml.g.cs
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Privacy.cshtml.g.cs
 c:\Users\123\Desktop\Nikatak\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Home\Services.cshtml.g.cs
+=======
+c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Contact\index.cshtml.g.cs
+c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\details.cshtml.g.cs
+>>>>>>> aa2ed3b625c83385f29bc8bf619256f3025a1de9
