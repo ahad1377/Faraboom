@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 5eef0d67f43671e3e6809db3223254e43c6e0a3d
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -66,6 +83,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
@@ -81,6 +99,23 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
+        "projectName": "ViewModels",
+        "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\123\\Desktop\\Nikatak\\ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 5eef0d67f43671e3e6809db3223254e43c6e0a3d
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -91,8 +126,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
                 "projectPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+=======
+              "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "c:\\Users\\123\\Desktop\\Nikatak\\DataLayer\\DataLayer.csproj"
+>>>>>>> 5eef0d67f43671e3e6809db3223254e43c6e0a3d
               }
             }
           }
@@ -126,7 +166,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+>>>>>>> 5eef0d67f43671e3e6809db3223254e43c6e0a3d
         }
       }
     }
