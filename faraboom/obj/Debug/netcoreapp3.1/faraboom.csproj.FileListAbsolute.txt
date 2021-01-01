@@ -3599,3 +3599,4 @@ D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\faraboom.genruntime
 D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Login\verify.cshtml.g.cs
 D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\form.cshtml.g.cs
 d:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_PrtialBirth.Cshtml.g.cs
+D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partialupload.cshtml.g.cs

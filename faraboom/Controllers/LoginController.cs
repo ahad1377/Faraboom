@@ -204,7 +204,7 @@ namespace faraboom.Controllers {
                     };
 
                     HttpContext.SignInAsync (principal, properties);
-                    return RedirectToAction ("index", "Home", new { area = "admin" });
+                    return RedirectToAction ("form", "Home", new { area = "admin" });
 
                 } else {
                     eror = "نام کاربری یا رمز عبور شما نادرست است";

@@ -11,7 +11,8 @@
 
 	<!-- Title -->
 	<title>پیشخوان نیکاتک</title>
-
+  <!-- form Uploads -->
+	<link href="~/admin/assets/plugins/fileuploads/css/dropify.css" rel="stylesheet" type="text/css">
 	<!-- Favicon -->
 	<link href="~/admin/assets/img/brand/favicon.png" rel="icon" type="image/png">
 
@@ -353,6 +354,22 @@
 	<!-- Form wizard js -->
 	<script src="~/admin/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
 	<script src="~/admin/assets/js/wizard.js"></script>
+	<!-- file uploads js -->
+	<script src="~/admin/assets/plugins/fileuploads/js/dropify.min.js"></script>
+	                       <script>
+		$('.dropify').dropify({
+			messages: {
+				'default': 'فایل خود را کشیده و اینجا رها کنید یا برای انتخاب فایل کلیک کنید',
+				'replace': 'فایل خود را کشیده و اینجا رها کنید یا برای تغییر فایل کلیک کنید',
+				'remove': 'حذف',
+				'error': 'اوپس،خطایی رخ داده است'
+			},
+			error: {
+				'fileSize': 'فایل انتخابی شما بزرگتر از محدودیت حجم تعیین شده است'
+			}
+		});
+	</script>
+
 
 	
 
