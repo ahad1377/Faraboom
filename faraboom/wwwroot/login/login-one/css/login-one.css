@@ -177,7 +177,7 @@ a.logo_text span {
 }
 .login-box-12 {
     margin: 0 auto;
-    max-width: 750px;
+    /* max-width: 750px; */
     border-radius: 10px;
     background: #fff;
     background-size: cover;

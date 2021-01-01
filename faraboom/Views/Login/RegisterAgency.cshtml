@@ -30,7 +30,7 @@
     <div class="container">
         <div class="col-md-12 pad-0" style="opacity: 80%;">
             <div class="row login-box-12">
-                <div class="col-lg-5 col-md-12 col-sm-12 px-0">
+                <div class="col-lg-2 col-md-12 col-sm-12 px-0">
                     <div class="login_left">
                         <a href="#" class="logo_text">
                             @* <span>JL</span> جاست لاگ *@
@@ -46,7 +46,7 @@
                         </ul> *@
                     </div>
                 </div>
-                <div class="col-lg-7 col-sm-12">
+                <div class="col-lg-5 col-sm-12">
                     <div class="login-inner-form">
                         <div class="details">
                             @if (ViewBag.msg  != null)
@@ -65,8 +65,24 @@
                                     <input type="text"  asp-for="PhoneUs" class="input-text" placeholder=" شماره تماس " required>
                                 </div>
                                 <div class="form-group">
+                                    <input type="text"  asp-for="UserNameUs" class="input-text" placeholder="نام کاربری به انگلیسی" required>
+                                </div>
+                                <div class="form-group">
                                     <input type="password" asp-for="PasswordUs" class="input-text" placeholder="رمزعبور" required>
                                 </div>
+                                <div class="form-group">
+                                    <input type="password" asp-for="RePasswordUs" class="input-text" placeholder=" تکرار رمزعبور" required>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-5 col-sm-12">
+                    <div class="login-inner-form">
+                        <div class="details">
+                          
+                    
+                           
                                 <div class="form-group">
                                     <input type="email"  asp-for="EmailUS" class="input-text" placeholder="ایمیل" required>
                                 </div>
@@ -78,6 +94,12 @@
                                  <div class="form-group">
                                  <p> آپلود کارت ملی  </p>
                                     <input type="file" asp-for="NameFile" accept="image/x-png,image/jpg" placeholder=" آپلود کارت ملی   " required>
+                                </div>
+
+                                 <div class="form-group">
+                                
+                                   <img src="/login/GetCaptchaImage" alt="">
+                                   <input type="text" asp-for="Captcha"  placeholder=" کد امنیتی   " required>
                                 </div>
 
 
