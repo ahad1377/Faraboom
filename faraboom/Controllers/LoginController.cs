@@ -51,10 +51,16 @@ namespace faraboom.Controllers {
             return View ();
         }
         public IActionResult Register () {
+           
 
             return View ();
         }
         public IActionResult RegisterAgency () {
+             if (massage != null) {
+                ViewBag.msg = massage;
+                massage = null;
+
+            }
 
             return View ();
         }
@@ -63,10 +69,10 @@ namespace faraboom.Controllers {
 
         public async Task<IActionResult> AddReg (Vm_User VmReg) {
 
-            //  if (db.Tbl_Registers.Any (a => a.CodeMeli == VmReg.CodeMeli)) {
-            //     massage = "اطلاعات فردی با این کد ملی قبلا ثبت شده است";
-            //     return RedirectToAction ("Login");
-
+             if (db.Tbl_User.Any (a => a.CodeMeli == VmReg.CodeMeli)) {
+                massage = "اطلاعات فردی با این کد ملی قبلا ثبت شده است";
+                return RedirectToAction ("RegisterAgency");
+             }
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
             string FileExtension1 = Path.GetExtension (VmReg.NameFile.FileName);
             NewFileName = String.Concat (Guid.NewGuid ().ToString (), FileExtension1);
@@ -90,8 +96,8 @@ namespace faraboom.Controllers {
             };
             db.Tbl_User.Add (TblReg);
             db.SaveChanges ();
-            send(VmReg.NameFamily);
-            massage = "اطلاعات شما با موفقیت ثبت شد لطفا ایمیل خود را چک فرمایید و منتظر تایید از سوی مدیریت باشید";
+            send(VmReg.NameFamily, VmReg.EmailUS);
+            massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
@@ -153,7 +159,7 @@ namespace faraboom.Controllers {
 
         }
 
-        public void send (String name) {
+        public void send (String name, String Email) {
             MimeMessage message = new MimeMessage ();
 
             MailboxAddress from = new MailboxAddress ("نیکاتک",
@@ -161,7 +167,7 @@ namespace faraboom.Controllers {
             message.From.Add (from);
 
             MailboxAddress to = new MailboxAddress ("User",
-                "karim.nemati17@gmail.com");
+               Email);
             message.To.Add (to);
 
             message.Subject = "قرارداد سامانه هوشمند نیکاتک";

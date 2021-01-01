@@ -26,6 +26,7 @@
 <Form method="POST" action="/Login/AddReg"  enctype="multipart/form-data">
 <!-- Login page -->
 <div class="login_wrapper">
+    
     <div class="container">
         <div class="col-md-12 pad-0" style="opacity: 80%;">
             <div class="row login-box-12">
@@ -48,6 +49,11 @@
                 <div class="col-lg-7 col-sm-12">
                     <div class="login-inner-form">
                         <div class="details">
+                            @if (ViewBag.msg  != null)
+					{
+					<p class="alert alert-danger text-center">@ViewBag.msg</p>
+					}
+                    
                             <p><span>حساب کاربری خود را</span> ایجاد کنید</p>
                                 <div class="form-group">
                                     <input type="text"  asp-for="NameFamily" class="input-text" placeholder="نام و نام خانوادگی" required>
@@ -77,7 +83,7 @@
 
                                 <div class="checkbox clearfix">
                                     <div class="form-check checkbox-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="termServices">
+                                        <input class="form-check-input" type="checkbox" value="" id="termServices" required>
                                         <label class="form-check-label" for="termServices">
                                             با تمامی شرایط و قوانین موافقم
                                         </label>
