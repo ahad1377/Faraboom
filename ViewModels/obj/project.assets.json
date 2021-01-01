@@ -5895,11 +5895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+      "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
-      "projectPath": "D:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+      "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
+      "outputPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5913,8 +5913,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+            "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
             }
           }
         }
@@ -5951,13 +5951,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

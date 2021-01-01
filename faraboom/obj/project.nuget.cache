@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LcG7bB0XGUv7ZZQ1WFu64LHvPotP78XRxkT+IM5SO2v5pAp0OMo+cUf/icYE5HeUP+lIPaz0OJPWLHoXYy84eA==",
+  "dgSpecHash": "Hg9xPuIZXxkRev2QRZ1MTPbwSe0C8O1lABhMikdjO8IVOrIqMxQSb77eW3hOzyWp/JLeWJ3tnxgVfA0IBaQUzQ==",
   "success": true,
-  "projectFilePath": "D:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+  "projectFilePath": "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\my pc\\.nuget\\packages\\mailkit\\2.10.0\\mailkit.2.10.0.nupkg.sha512",
     "C:\\Users\\my pc\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
@@ -164,12 +164,5 @@
     "C:\\Users\\my pc\\.nuget\\packages\\zarinpal-sdk\\0.0.8\\zarinpal-sdk.0.0.8.nupkg.sha512",
     "C:\\Users\\my pc\\.nuget\\packages\\zarinpaldriver\\1.2.0\\zarinpaldriver.1.2.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\project\\nikatak\\Faraboom\\faraboom\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

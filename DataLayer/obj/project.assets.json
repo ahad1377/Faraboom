@@ -5726,11 +5726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
+      "outputPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5788,13 +5788,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

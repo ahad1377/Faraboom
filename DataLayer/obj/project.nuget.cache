@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5OUHiX8wam9EjjGwWk1g6Q6gy42GCSE5AQj8THEFx9WkPB4kWoBMZeOhMnbCxNQDsDM9T4XipzA7doZTFkC4SA==",
+  "dgSpecHash": "P0/WAbB+BcRkWm9r8bCh+9foBcdOI/zEKvlBlMNONu394Oux5JSnSCa7OW4qZKQ0xUzN7db0Bvf9ddG0OCiBgA==",
   "success": true,
-  "projectFilePath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\my pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\my pc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -105,12 +105,5 @@
     "C:\\Users\\my pc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\my pc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
