@@ -5841,11 +5841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+      "projectUniqueName": "D:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
-      "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+      "projectPath": "D:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-      "outputPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
+      "outputPath": "D:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5859,8 +5859,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+            "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
             }
           }
         }

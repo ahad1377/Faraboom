@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {}
+    "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+    "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "projectPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-        "outputPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
+        "outputPath": "D:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
