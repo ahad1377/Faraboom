@@ -12,7 +12,7 @@ namespace DataLayer.AdminEntities.Admin
           public string Nameen { get; set; }
          public string Familyen{ get; set; }
          public string Fathernameen{ get; set; }
-         public string NationalCode { get; set; }
+       
          public string Place{ get; set; }
          public string Serial{ get; set; }
         public string Religion{ get; set; }

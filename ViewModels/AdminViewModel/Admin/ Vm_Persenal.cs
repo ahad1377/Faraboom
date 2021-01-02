@@ -8,7 +8,6 @@ namespace ViewModels.AdminViewModel.Admin
          public string Nameper { get; set; }
          public string Familyper{ get; set; }
          public string Fathernameper{ get; set; }
-         public string NationalCode { get; set; }
          public string Nameen { get; set; }
          public string Familyen{ get; set; }
          public string Fathernameen{ get; set; }
