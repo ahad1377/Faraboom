@@ -14597,6 +14597,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Views\\Agancy\\index.cshtml",
+      "TargetPath": "Views\\Agancy\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Areas\\Adminsite\\Views\\teaser\\index.cshtml",
       "TargetPath": "Areas\\Adminsite\\Views\\teaser\\index.cshtml",
       "FileKind": "mvc"
@@ -14614,6 +14619,11 @@
     {
       "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\Views\\Agancy\\details.cshtml",
+      "TargetPath": "Views\\Agancy\\details.cshtml",
       "FileKind": "mvc"
     },
     {
