@@ -8,6 +8,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using DataLayer.AdminEntities.User;
 using DataLayer.Context;
+using faraboom.Models;
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -15,14 +16,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using MimeKit;
 using ViewModels.AdminViewModel.User;
-using faraboom.Models;
-using Microsoft.AspNetCore.Mvc.Rendering;
-
-
 
 namespace faraboom.Controllers {
     public class LoginController : Controller {
@@ -52,7 +50,10 @@ namespace faraboom.Controllers {
                 massage = null;
 
             }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             return View ();
         }
         public IActionResult Register () {
@@ -61,31 +62,19 @@ namespace faraboom.Controllers {
             return View ();
         }
 
+        public IActionResult verify () {
 
-
-
-         public IActionResult verify () {
-            
-                 
-                 return View ();
-         }
-       
-       
-
-
-
-
-
+            return View ();
+        }
 
         public IActionResult RegisterAgency () {
-             if (massage != null) {
+            if (massage != null) {
                 ViewBag.msg = massage;
                 massage = null;
 
             }
 
-            
-             if (massage != null) {
+            if (massage != null) {
                 ViewBag.msg = massage;
                 massage = null;
 
@@ -96,32 +85,40 @@ namespace faraboom.Controllers {
             return View ();
         }
 
-        
-
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
 
         public async Task<IActionResult> AddReg (Vm_User VmReg) {
 
+<<<<<<< HEAD
+=======
             
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             //test username
 
-             if (db.Tbl_User.Any (a => a.UserNameUs == VmReg.UserNameUs)) {
+            if (db.Tbl_User.Any (a => a.UserNameUs == VmReg.UserNameUs)) {
                 massage = "این نام کاربری قبلا ثبت شده است ";
                 return RedirectToAction ("RegisterAgency");
-             }
+            }
 
-             //test captcha
-             if (!(Captcha.ValidateCaptchaCode(VmReg.Captcha, HttpContext)))
-             {
-                 massage = "کد امنیتی نادرست است";
+            //test captcha
+            if (!(Captcha.ValidateCaptchaCode (VmReg.Captcha, HttpContext))) {
+                massage = "کد امنیتی نادرست است";
                 return RedirectToAction ("RegisterAgency");
+<<<<<<< HEAD
+            }
+            //check pass
+            if (VmReg.PasswordUs != VmReg.RePasswordUs) {
+                massage = "رمز های عبور با هم مطابقت ندارد";
+
+=======
              }
              //check pass
               if (VmReg.PasswordUs != VmReg.RePasswordUs)
              {
                  massage = "رمز های عبور با هم مطابقت ندارد";
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
                 return RedirectToAction ("RegisterAgency");
-             }
+            }
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
             string FileExtension1 = Path.GetExtension (VmReg.NameFile.FileName);
             NewFileName = String.Concat (Guid.NewGuid ().ToString (), FileExtension1);
@@ -146,24 +143,27 @@ namespace faraboom.Controllers {
             db.Tbl_User.Add (TblReg);
             db.SaveChanges ();
 
+<<<<<<< HEAD
+            send (VmReg.UserNameUs, VmReg.PasswordUs, VmReg.EmailUS);
+=======
             send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }
         //img captch
-         public FileStreamResult GetCaptchaImage()
-        {
+        public FileStreamResult GetCaptchaImage () {
             int width = 100;
             int height = 35;
-            var captchaCode = Captcha.GenerateCaptchaCode();
-            var result = Captcha.GenerateCaptchaImage(width, height, captchaCode);
-            HttpContext.Session.SetString("CaptchaCode", result.CaptchaCode);
-            string b = HttpContext.Session.GetString("CaptchaCode");
-            Stream s = new MemoryStream(result.CaptchaByteData);
-            return new FileStreamResult(s, "image/png");
+            var captchaCode = Captcha.GenerateCaptchaCode ();
+            var result = Captcha.GenerateCaptchaImage (width, height, captchaCode);
+            HttpContext.Session.SetString ("CaptchaCode", result.CaptchaCode);
+            string b = HttpContext.Session.GetString ("CaptchaCode");
+            Stream s = new MemoryStream (result.CaptchaByteData);
+            return new FileStreamResult (s, "image/png");
         }
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
-          
+
         public IActionResult login_check (Vm_User us) {
 
             if (us.UserNameUs == "Admin") {
@@ -193,7 +193,7 @@ namespace faraboom.Controllers {
                 }
 
             } else {
-                var user = db.Tbl_User.Where (a => a.UserNameUs == us.UserNameUs && a.PasswordUs == us.PasswordUs ).SingleOrDefault ();
+                var user = db.Tbl_User.Where (a => a.UserNameUs == us.UserNameUs && a.PasswordUs == us.PasswordUs).SingleOrDefault ();
 
                 if (user != null) {
 
@@ -221,8 +221,12 @@ namespace faraboom.Controllers {
 
         }
 
+<<<<<<< HEAD
+        public void send (String user, String pass, String Email) {
+=======
 
         public void send (String user, String pass,String Email ) {
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             MimeMessage message = new MimeMessage ();
 
             MailboxAddress from = new MailboxAddress ("نیکاتک",
@@ -230,19 +234,17 @@ namespace faraboom.Controllers {
             message.From.Add (from);
 
             MailboxAddress to = new MailboxAddress ("User",
-               Email);
+                Email);
             message.To.Add (to);
 
             message.Subject = " سامانه هوشمند نیکاتک";
 
-            var qtext=db.Tbl_Blog.Where(a=>a.Id==3)?.SingleOrDefault();
+            var qtext = db.Tbl_Blog.Where (a => a.Id == 3)?.SingleOrDefault ();
 
             BodyBuilder bodyBuilder = new BodyBuilder ();
-            bodyBuilder.HtmlBody =  qtext.FullTextBlo.Replace("user",user).Replace("pass",pass);
+            bodyBuilder.HtmlBody = qtext.FullTextBlo.Replace ("user", user).Replace ("pass", pass);
             bodyBuilder.TextBody = "Hello World!";
             message.Body = bodyBuilder.ToMessageBody ();
-
-            
 
             SmtpClient client = new SmtpClient ();
             client.Connect ("webmail.nikatak.ir", 465, true);
@@ -251,15 +253,7 @@ namespace faraboom.Controllers {
             client.Disconnect (true);
             client.Dispose ();
 
-           
         }
-
-
-
-
-        
-
-       
 
     }
 }

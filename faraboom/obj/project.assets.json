@@ -8106,19 +8106,52 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\123\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\Neati\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\MEDIA MARK\\.nuget\\packages\\": {},
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\faraboom\\faraboom.csproj",
       "projectName": "faraboom",
       "projectPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\faraboom\\faraboom.csproj",
       "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\faraboom\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+      "projectName": "faraboom",
+      "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+      "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\",
+=======
+      "projectUniqueName": "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj",
+      "projectName": "faraboom",
+      "projectPath": "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj",
+      "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
+      "outputPath": "f:\\Farabom\\Faraboom\\faraboom\\obj\\",
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
+>>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+<<<<<<< HEAD
+        "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
+>>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8129,11 +8162,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
               "projectPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
             },
             "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {
               "projectPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\ViewModels\\ViewModels.csproj"
+=======
+<<<<<<< HEAD
+            "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+            },
+            "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj"
+=======
+            "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
+            },
+            "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj"
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
+>>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
             }
           }
         }
@@ -8206,7 +8255,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
       }
     }
   }
