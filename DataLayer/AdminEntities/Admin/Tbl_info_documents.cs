@@ -4,6 +4,7 @@ namespace DataLayer.AdminEntities.Admin
     public class Tbl_info_documents
     {
         [Key]
+        public int Id { get; set; }
         public string photos { get; set; }
         public string Nationalcard { get; set; }
         public string Nationalcardback { get; set; }

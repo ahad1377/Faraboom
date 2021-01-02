@@ -7,6 +7,7 @@ namespace ViewModels.AdminViewModel.Admin
     public class Vm_Documents
     {
                 [Key]
+         public int Id { get; set; }
         
         public string photos { get; set; }
         public IFormFile Fphotos { get; set; }
