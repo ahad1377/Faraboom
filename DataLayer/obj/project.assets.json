@@ -5668,19 +5668,20 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\123\\.nuget\\packages\\": {}
 =======
 <<<<<<< HEAD
-    "C:\\Users\\Neati\\.nuget\\packages\\": {},
 =======
-    "C:\\Users\\MEDIA MARK\\.nuget\\packages\\": {},
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
+>>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
+    "C:\\Users\\Neati\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
 >>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
@@ -5689,11 +5690,14 @@
       "outputPath": "C:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\obj\\",
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
       "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\",
+<<<<<<< HEAD
 =======
       "projectUniqueName": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
@@ -5702,8 +5706,11 @@
       "outputPath": "f:\\Farabom\\Faraboom\\DataLayer\\obj\\",
 >>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
 >>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
+=======
+>>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
         "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
 =======
@@ -5713,6 +5720,9 @@
         "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
 >>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
+=======
+        "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5764,12 +5774,20 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
       }
     }
+<<<<<<< HEAD
   }
+=======
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
 }

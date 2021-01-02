@@ -3600,7 +3600,6 @@ D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Views\Login\v
 D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\form.cshtml.g.cs
 d:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_PrtialBirth.Cshtml.g.cs
 D:\project\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partialupload.cshtml.g.cs
-<<<<<<< HEAD
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
@@ -3622,7 +3621,6 @@ c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\A
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Gabz.cshtml.g.cs
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Index.cshtml.g.cs
 c:\Users\Neati\Desktop\nikatak\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Shahrdari.cshtml.g.cs
-=======
 f:\Farabom\Faraboom\faraboom\bin\Debug\netcoreapp3.1\appsettings.Development.json
 f:\Farabom\Faraboom\faraboom\bin\Debug\netcoreapp3.1\appsettings.json
 f:\Farabom\Faraboom\faraboom\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
