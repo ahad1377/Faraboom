@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\",
-=======
-    "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {}
-  },
-  "projects": {
-    "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
-        "projectName": "DataLayer",
-        "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
-        "outputPath": "f:\\Farabom\\Faraboom\\DataLayer\\obj\\",
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -87,7 +69,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
@@ -100,30 +81,12 @@
         "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
         "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-        "projectName": "ViewModels",
-        "projectPath": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-        "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
-        "outputPath": "f:\\Farabom\\Faraboom\\ViewModels\\obj\\",
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -134,13 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
                 "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
-=======
-              "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
               }
             }
           }
@@ -174,11 +132,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
         }
       }
     }
