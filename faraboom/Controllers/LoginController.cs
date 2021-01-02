@@ -52,11 +52,18 @@ namespace faraboom.Controllers {
                 massage = null;
 
             }
+<<<<<<< HEAD
+            return View ();
+        }
+        public IActionResult Register () {
+           
+=======
             if (verifyEmail != null) {
                 ViewBag.msg = "ایمیل شما تایید شد هم اکنون می توانید وارد شوید.";
                 massage = null;
 
             }
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
 
             return View ();
         }
@@ -78,6 +85,11 @@ namespace faraboom.Controllers {
 
 
         public IActionResult RegisterAgency () {
+             if (massage != null) {
+                ViewBag.msg = massage;
+                massage = null;
+
+            }
 
             
              if (massage != null) {
@@ -96,6 +108,11 @@ namespace faraboom.Controllers {
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
 
         public async Task<IActionResult> AddReg (Vm_User VmReg) {
+<<<<<<< HEAD
+
+             if (db.Tbl_User.Any (a => a.CodeMeli == VmReg.CodeMeli)) {
+                massage = "اطلاعات فردی با این کد ملی قبلا ثبت شده است";
+=======
             
             //test username
 
@@ -114,6 +131,7 @@ namespace faraboom.Controllers {
               if (VmReg.PasswordUs != VmReg.RePasswordUs)
              {
                  massage = "رمز های عبور با هم مطابقت ندارد";
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
                 return RedirectToAction ("RegisterAgency");
              }
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
@@ -139,7 +157,11 @@ namespace faraboom.Controllers {
             };
             db.Tbl_User.Add (TblReg);
             db.SaveChanges ();
+<<<<<<< HEAD
+            send(VmReg.NameFamily, VmReg.EmailUS);
+=======
             send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
             massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }
@@ -214,7 +236,11 @@ namespace faraboom.Controllers {
 
         }
 
+<<<<<<< HEAD
+        public void send (String name, String Email) {
+=======
         public void send (String user, String pass,String Email ) {
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
             MimeMessage message = new MimeMessage ();
 
             MailboxAddress from = new MailboxAddress ("نیکاتک",
