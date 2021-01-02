@@ -5,6 +5,7 @@ namespace DataLayer.AdminEntities.Admin
     {
            [Key]
         public string Nameper { get; set; }
+        
          public string Familyper{ get; set; }
          public string Fathernameper{ get; set; }
          public string NationalCode { get; set; }
