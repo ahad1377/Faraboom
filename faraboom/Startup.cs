@@ -29,6 +29,7 @@ namespace faraboom {
             
 
             services.AddControllersWithViews ();
+            services.AddSession();
             services.AddMvc ().AddRazorRuntimeCompilation ();
             services.AddDbContext<ContextHampadco> (option => {
                 option.UseSqlServer (Configuration.GetConnectionString ("DefaultConnection"));
@@ -44,12 +45,7 @@ namespace faraboom {
                 options.LogoutPath = "/Home/index";
                 options.ExpireTimeSpan = TimeSpan.FromMinutes (43200);
             });
-            services.Configure<CookiePolicyOptions> (options => {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
-            });
-
+            
             /////////////////////
            
 
@@ -64,19 +60,21 @@ namespace faraboom {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts ();
             }
-
+        
             app.UseHttpsRedirection ();
             app.UseStaticFiles ();
+            app.UseSession();
             app.UseCookiePolicy ();
             app.UseAuthentication ();
             app.UseRouting ();
             app.UseAuthorization ();
+          
             
 
             app.UseEndpoints (endpoints => {
                 endpoints.MapControllerRoute (
                     name: "areas",
-                    pattern: "{area:exists}/{controller=Home}/{action=privacy}/{id?}");
+                    pattern: "{area:exists}/{controller=home}/{action=form}/{id?}");
             });
 
             app.UseEndpoints (endpoints => {

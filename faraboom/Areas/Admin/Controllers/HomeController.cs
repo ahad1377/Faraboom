@@ -45,6 +45,13 @@ namespace Admin.Controllers
             return RedirectToAction("index","home");
         }
 
+         public IActionResult form()
+        {
+           
+
+            return View();
+        }
+
 
        
     }

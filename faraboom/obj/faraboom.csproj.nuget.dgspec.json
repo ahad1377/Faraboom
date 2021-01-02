@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {}
+    "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+    "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\",
+        "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
+        "outputPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -69,24 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {
+    "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
         "projectName": "faraboom",
-        "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
-        "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\faraboom\\obj\\",
+        "projectPath": "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
+        "outputPath": "d:\\project\\nikatak\\Faraboom\\faraboom\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,11 +91,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+              "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
               },
-              "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
-                "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj"
+              "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj"
               }
             }
           }
@@ -139,6 +133,10 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "ZarinPal-SDK": {
               "target": "Package",
               "version": "[0.0.8, )"
@@ -170,24 +168,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
+    "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
-        "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\obj\\",
+        "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
+        "outputPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -198,8 +193,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+              "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -233,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

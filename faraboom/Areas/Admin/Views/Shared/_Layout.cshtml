@@ -11,7 +11,8 @@
 
 	<!-- Title -->
 	<title>پیشخوان نیکاتک</title>
-
+  <!-- form Uploads -->
+	<link href="~/admin/assets/plugins/fileuploads/css/dropify.css" rel="stylesheet" type="text/css">
 	<!-- Favicon -->
 	<link href="~/admin/assets/img/brand/favicon.png" rel="icon" type="image/png">
 
@@ -38,8 +39,11 @@
 	<!-- Custom scroll bar css-->
 	<link href="~/admin/assets/plugins/customscroll/jquery.mCustomScrollbar.css" rel="stylesheet">
 
+
 	<!-- Sidemenu Css -->
 	<link href="~/admin/assets/plugins/toggle-sidebar/css/darksiderbar-sidemenu.css" rel="stylesheet">
+    <!--Select2 css-->
+	<link rel="stylesheet" href="~/admin/assets/plugins/select2/select2.css">
 
 
  <style>
@@ -339,7 +343,36 @@
 	<!-- Ansta JS -->
 	<script src="~/admin/assets/js/custom.js"></script>
 	<script src="~/admin/assets/js/dashboard-sales.js"></script>
+	<!-- Optional JS -->
+	<script src="~/admin/assets/plugins/chart.js/dist/Chart.min.js"></script>
+	<script src="~/admin/assets/plugins/chart.js/dist/Chart.extension.js"></script>
+
+	<!-- Data tables -->
+	<script src="~/admin/assets/plugins/datatable/jquery.dataTables.min.js"></script>
+	<script src="~/admin/assets/plugins/datatable/dataTables.bootstrap4.min.js"></script>
+
+	<!-- Form wizard js -->
+	<script src="~/admin/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+	<script src="~/admin/assets/js/wizard.js"></script>
+	<!-- file uploads js -->
+	<script src="~/admin/assets/plugins/fileuploads/js/dropify.min.js"></script>
+	                       <script>
+		$('.dropify').dropify({
+			messages: {
+				'default': 'فایل خود را کشیده و اینجا رها کنید یا برای انتخاب فایل کلیک کنید',
+				'replace': 'فایل خود را کشیده و اینجا رها کنید یا برای تغییر فایل کلیک کنید',
+				'remove': 'حذف',
+				'error': 'اوپس،خطایی رخ داده است'
+			},
+			error: {
+				'fileSize': 'فایل انتخابی شما بزرگتر از محدودیت حجم تعیین شده است'
+			}
+		});
+	</script>
+
+
 	
+
 
 
 </body>

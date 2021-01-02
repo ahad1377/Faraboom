@@ -1,0 +1,624 @@
+<div class="row">
+	<!-- BASIC WIZARD -->
+	<div class="col-xl-12">
+		<div class="card m-b-20">
+			<div class="card-header">
+				<h2 class="mb-0">تکمیل اطلاعات </h2>
+			</div>
+			<div class="card-body">
+				<form>
+					<div id="basicwizard" class="border pt-0">
+						<ul class="nav nav-tabs nav-justified">
+							<li class="nav-item"><a href="#tab1" data-toggle="tab" class="nav-link ">اطلاعات هویتی </a>
+							</li>
+							<li class="nav-item"><a href="#tab2" data-toggle="tab" class="nav-link ">اطلاعات ارتباطی
+								</a></li>
+							<li class="nav-item"><a href="#tab3" data-toggle="tab" class="nav-link">اطلاعات حساب</a>
+							</li>
+							<li class="nav-item"><a href="#tab4" data-toggle="tab" class="nav-link ">میزان تحصیلات</a>
+							</li>
+							<li class="nav-item"><a href="#tab5" data-toggle="tab" class="nav-link ">سوابق کاری
+								</a></li>
+							<li class="nav-item"><a href="#tab6" data-toggle="tab" class="nav-link">الصاق مدارک</a></li>
+							<li class="nav-item"><a href="#tab7" data-toggle="tab" class="nav-link">پرداخت هزینه</a>
+							</li>
+						</ul>
+						<div class="tab-content card-body  b-0 mb-0">
+							<div class="tab-pane fade" id="tab1">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="نام به فارسی"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="نام خانوادگی به فارسی" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="نام پدر به فارسی"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="کد ملی"
+														type="text">
+												</div>
+
+											</div>
+
+
+
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="نام به لاتین"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="نام خانوادگی به لاتین" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="نام پدر به لاتین"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="کد ملی "
+														type="text">
+												</div>
+
+											</div>
+
+
+
+											<div class="row mt-1">
+
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="محل صدور"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="سریال شناسنامه"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="مذهب" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="ایمیل"
+														type="text">
+												</div>
+											</div>
+
+											<div class="row mt-2">
+
+												<div class="col-lg-4">
+													@await Html.PartialAsync("_PrtialBirth")
+												</div>
+												<div class="col-lg-3">
+													<div class="form-group">
+														<label class="form-label">انتخاب جنسیت</label>
+														<select name="country" id="select-countries"
+															class="form-control custom-select">
+															<option value="male">مرد
+															</option>
+															<option value="woman" d>زن
+															</option>
+
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-3">
+													<div class="form-group">
+														<label class="form-label">وضعیت تاهل</label>
+														<select name="country" id="select-countries"
+															class="form-control custom-select">
+															<option value="marid">متاهل
+															</option>
+															<option value="single" d>مجرد
+															</option>
+
+														</select>
+													</div>
+												</div>
+
+
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab2">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="	تلفن همراه "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="	تلفن ثابت منزل با کد" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="	تلفن ثابت محل نمایندگی با کد" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="تلفن نمایندگی نیکا تک" type="text">
+												</div>
+
+											</div>
+
+
+
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="	استان "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="شهر" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="	کدپستی"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="	ادرس منزل"
+														type="text">
+												</div>
+
+											</div>
+
+
+
+											<div class="row mt-1">
+
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="کدپستی"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="ادرس محل فعالیت"
+														type="text">
+												</div>
+
+											</div>
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab3">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام بانک "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		کد بانک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شعبه"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="	نوع حساب(سپرده – جاری )" type="text">
+												</div>
+
+											</div>
+
+
+
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required"
+														placeholder="	شماره کارت عابر بانک  " type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="	شماره شبا"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		شماره حساب"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام دارنده حساب"
+														type="text">
+												</div>
+
+											</div>
+
+
+
+											<div class="row mt-1">
+
+
+												<div class="col-lg-3">
+													<input class="form-control required text-center "
+														placeholder="کد پستی" type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="ادرس محل فعالیت"
+														type="text">
+												</div>
+
+											</div>
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab4">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" type="text" value="دیپلم"
+														disabled>
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		تاریخ اخذ مدرک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		محل اخذ مدرک
+														type=" text">
+												</div>
+
+
+											</div>
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" type="text" value="کاردانی"
+														disabled>
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		تاریخ اخذ مدرک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		محل اخذ مدرک
+														type=" text">
+												</div>
+
+
+											</div>
+
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" type="text" value="کارشناسی"
+														disabled>
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		تاریخ اخذ مدرک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		محل اخذ مدرک
+														type=" text">
+												</div>
+
+
+											</div>
+
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" type="text" value="ارشد"
+														disabled>
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		تاریخ اخذ مدرک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		محل اخذ مدرک
+														type=" text">
+												</div>
+
+
+											</div>
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" type="text" value="دکترا"
+														disabled>
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		تاریخ اخذ مدرک"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		محل اخذ مدرک
+														type=" text">
+												</div>
+
+
+											</div>
+
+
+
+
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab5">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+											<div class="row mt-1">
+
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نام شرکت  "
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			شروع همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="			خاتمه همکاری"
+														type="text">
+												</div>
+												<div class="col-lg-3">
+													<input class="form-control required" placeholder="		نوع فعالیت"
+														type="text">
+												</div>
+
+											</div>
+
+
+
+
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab6">
+								@await Html.PartialAsync("_Partialupload")
+							</div>
+
+
+							<div class="tab-pane fade" id="tab7">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group clearfix">
+
+											<div class="row mt-1">
+
+												<div class="col-lg-6">
+													<div class="card pull-up shadow bg-gradient-primary">
+														<a href="">
+
+															<div class="card-content">
+																<div class="card-body">
+																	<img src="~/admin/assets/img/circle.svg"
+																		class="card-img-absolute" alt="circle-image">
+																	<div class="media d-flex">
+																		<div class="media-body text-right">
+																			<h4 class="text-white">مراکز استان</h4>
+																			<h2 class="text-white mb-0">60,000,000 تومان
+																			</h2>
+																		</div>
+																		<div class="align-self-center">
+																			<i
+																				class="fe fe-shopping-cart text-white font-large-2 float-right"></i>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</a>
+													</div>
+												</div>
+
+												<div class="col-lg-6">
+													<a href="">
+
+													<div class="card pull-up shadow bg-gradient-warning">
+														<div class="card-content">
+															<div class="card-body">
+																<img src="~/admin/assets/img/circle.svg"
+																	class="card-img-absolute" alt="circle-image">
+																<div class="media d-flex">
+																	<div class="media-body text-right">
+																		<h4 class="text-white">سایر شهرستان ها</h4>
+																		<h2 class="text-white mb-0">40,000,000 تومان
+																		</h2>
+																	</div>
+																	<div class="align-self-center">
+																		<i
+																			class="fe fe-bar-chart text-white font-large-2 float-right"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													</a>
+
+												</div>
+
+
+											</div>
+
+
+
+
+
+
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+							<ul class="list-inline wizard mb-0">
+								<li class="previous list-inline-item"><a href="#"
+										class="btn btn-primary mb-0 waves-effect waves-light">قبلی</a>
+								</li>
+								<li class="next list-inline-item float-left"><a href="#"
+										class="btn btn-primary mb-0 waves-effect waves-light">بعدی</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end row -->

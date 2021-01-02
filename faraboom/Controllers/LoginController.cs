@@ -19,6 +19,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using MimeKit;
 using ViewModels.AdminViewModel.User;
+using faraboom.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+
 
 namespace faraboom.Controllers {
     public class LoginController : Controller {
@@ -36,7 +40,7 @@ namespace faraboom.Controllers {
 
             return View ();
         }
-        public IActionResult Login () {
+        public IActionResult Login (String? verifyEmail) {
             if (eror != null) {
                 // ViewBag.eror = eror;
                 eror = null;
@@ -48,13 +52,38 @@ namespace faraboom.Controllers {
                 massage = null;
 
             }
+<<<<<<< HEAD
             return View ();
         }
         public IActionResult Register () {
            
+=======
+            if (verifyEmail != null) {
+                ViewBag.msg = "ایمیل شما تایید شد هم اکنون می توانید وارد شوید.";
+                massage = null;
+
+            }
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
 
             return View ();
         }
+
+
+
+
+         public IActionResult verify () {
+            
+                 
+                 return View ();
+         }
+       
+       
+
+
+
+
+
+
         public IActionResult RegisterAgency () {
              if (massage != null) {
                 ViewBag.msg = massage;
@@ -62,15 +91,47 @@ namespace faraboom.Controllers {
 
             }
 
+            
+             if (massage != null) {
+                ViewBag.msg = massage;
+                massage = null;
+
+            }
+
+            ViewBag.Isverified = "";
+
             return View ();
         }
+
+        
 
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
 
         public async Task<IActionResult> AddReg (Vm_User VmReg) {
+<<<<<<< HEAD
 
              if (db.Tbl_User.Any (a => a.CodeMeli == VmReg.CodeMeli)) {
                 massage = "اطلاعات فردی با این کد ملی قبلا ثبت شده است";
+=======
+            
+            //test username
+
+             if (db.Tbl_User.Any (a => a.UserNameUs == VmReg.UserNameUs)) {
+                massage = "این نام کاربری قبلا ثبت شده است ";
+                return RedirectToAction ("RegisterAgency");
+             }
+
+             //test captcha
+             if (!(Captcha.ValidateCaptchaCode(VmReg.Captcha, HttpContext)))
+             {
+                 massage = "کد امنیتی نادرست است";
+                return RedirectToAction ("RegisterAgency");
+             }
+             //check pass
+              if (VmReg.PasswordUs != VmReg.RePasswordUs)
+             {
+                 massage = "رمز های عبور با هم مطابقت ندارد";
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
                 return RedirectToAction ("RegisterAgency");
              }
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
@@ -96,12 +157,28 @@ namespace faraboom.Controllers {
             };
             db.Tbl_User.Add (TblReg);
             db.SaveChanges ();
+<<<<<<< HEAD
             send(VmReg.NameFamily, VmReg.EmailUS);
+=======
+            send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
             massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }
+        //img captch
+         public FileStreamResult GetCaptchaImage()
+        {
+            int width = 100;
+            int height = 35;
+            var captchaCode = Captcha.GenerateCaptchaCode();
+            var result = Captcha.GenerateCaptchaImage(width, height, captchaCode);
+            HttpContext.Session.SetString("CaptchaCode", result.CaptchaCode);
+            string b = HttpContext.Session.GetString("CaptchaCode");
+            Stream s = new MemoryStream(result.CaptchaByteData);
+            return new FileStreamResult(s, "image/png");
+        }
         ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
-
+          
         public IActionResult login_check (Vm_User us) {
 
             if (us.UserNameUs == "Admin") {
@@ -131,7 +208,7 @@ namespace faraboom.Controllers {
                 }
 
             } else {
-                var user = db.Tbl_User.Where (a => a.UserNameUs == us.UserNameUs && a.PasswordUs == us.PasswordUs && a.state == true).SingleOrDefault ();
+                var user = db.Tbl_User.Where (a => a.UserNameUs == us.UserNameUs && a.PasswordUs == us.PasswordUs ).SingleOrDefault ();
 
                 if (user != null) {
 
@@ -149,7 +226,7 @@ namespace faraboom.Controllers {
                     };
 
                     HttpContext.SignInAsync (principal, properties);
-                    return RedirectToAction ("index", "Home", new { area = "admin" });
+                    return RedirectToAction ("form", "Home", new { area = "admin" });
 
                 } else {
                     eror = "نام کاربری یا رمز عبور شما نادرست است";
@@ -159,7 +236,11 @@ namespace faraboom.Controllers {
 
         }
 
+<<<<<<< HEAD
         public void send (String name, String Email) {
+=======
+        public void send (String user, String pass,String Email ) {
+>>>>>>> 46104dbf447c1ff9f1a033a05fe5044aa8d92f3d
             MimeMessage message = new MimeMessage ();
 
             MailboxAddress from = new MailboxAddress ("نیکاتک",
@@ -170,12 +251,12 @@ namespace faraboom.Controllers {
                Email);
             message.To.Add (to);
 
-            message.Subject = "قرارداد سامانه هوشمند نیکاتک";
+            message.Subject = " سامانه هوشمند نیکاتک";
 
             var qtext=db.Tbl_Blog.Where(a=>a.Id==3)?.SingleOrDefault();
 
             BodyBuilder bodyBuilder = new BodyBuilder ();
-            bodyBuilder.HtmlBody =  qtext.FullTextBlo.Replace("دوست",name);
+            bodyBuilder.HtmlBody =  qtext.FullTextBlo.Replace("user",user).Replace("pass",pass);
             bodyBuilder.TextBody = "Hello World!";
             message.Body = bodyBuilder.ToMessageBody ();
 
