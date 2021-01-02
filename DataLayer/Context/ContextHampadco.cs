@@ -59,6 +59,7 @@ namespace DataLayer.Context {
     public DbSet<Tbl_info_persenal> Tbl_info_persenals { get; set; }
     public DbSet<Tbl_info_record> Tbl_info_records { get; set; }
     public DbSet<Tbl_level> Tbl_levels { get; set; }
+     public DbSet<Tbl_info_documents> Tbl_info_documents { get; set; }
 
   }
 

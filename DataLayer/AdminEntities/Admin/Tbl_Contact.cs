@@ -13,6 +13,7 @@ namespace DataLayer.AdminEntities.Admin {
         public string Postalcode { get; set; }
         public string homeaddress { get; set; }
          public string Locationaddress { get; set; }
+         
         
 
     }
