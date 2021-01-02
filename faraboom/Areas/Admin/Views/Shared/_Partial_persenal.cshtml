@@ -1,75 +1,102 @@
-	
+	@model ViewModels.AdminViewModel.Admin.Vm_info
 
 
-    <div class="tab-pane fade" id="tab3">
-								<div class="row">
-									<div class="col-12">
-										<div class="form-group clearfix">
+<div class="tab-pane fade" id="tab1">
+	<div class="row">
+		<div class="col-12">
+			<div class="form-group clearfix">
 
-											<div class="row mt-1">
+				<div class="row mt-1">
 
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="		نام بانک "
-														type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="		کد بانک"
-														type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="		نام شعبه"
-														type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required"
-														placeholder="	نوع حساب(سپرده – جاری )" type="text">
-												</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام به فارسی" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام خانوادگی به فارسی" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام پدر به فارسی" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="کد ملی" type="text">
+					</div>
 
-											</div>
+				</div>
 
 
 
 
-											<div class="row mt-1">
+				<div class="row mt-1">
 
-												<div class="col-lg-3">
-													<input class="form-control required"
-														placeholder="	شماره کارت عابر بانک  " type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="	شماره شبا"
-														type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="		شماره حساب"
-														type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="		نام دارنده حساب"
-														type="text">
-												</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام به لاتین" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام خانوادگی به لاتین" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="نام پدر به لاتین" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="کد ملی " type="text">
+					</div>
 
-											</div>
+				</div>
 
 
 
-											<div class="row mt-1">
+				<div class="row mt-1">
 
 
-												<div class="col-lg-3">
-													<input class="form-control required text-center "
-														placeholder="کد پستی" type="text">
-												</div>
-												<div class="col-lg-3">
-													<input class="form-control required" placeholder="ادرس محل فعالیت"
-														type="text">
-												</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="محل صدور" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="سریال شناسنامه" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="مذهب" type="text">
+					</div>
+					<div class="col-lg-3">
+						<input class="form-control required" placeholder="ایمیل" type="text">
+					</div>
+				</div>
 
-											</div>
+				<div class="row mt-2">
+
+					<div class="col-lg-4">
+						@await Html.PartialAsync("_PrtialBirth")
+					</div>
+					<div class="col-lg-3">
+						<div class="form-group">
+							<label class="form-label">انتخاب جنسیت</label>
+							<select name="country" id="select-countries" class="form-control custom-select">
+								<option value="male">مرد
+								</option>
+								<option value="woman" d>زن
+								</option>
+
+							</select>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="form-group">
+							<label class="form-label">وضعیت تاهل</label>
+							<select name="country" id="select-countries" class="form-control custom-select">
+								<option value="marid">متاهل
+								</option>
+								<option value="single" d>مجرد
+								</option>
+
+							</select>
+						</div>
+					</div>
 
 
-										</div>
+				</div>
 
-									</div>
-								</div>
-							</div>
+			</div>
+
+		</div>
+	</div>
+</div>
