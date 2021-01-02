@@ -50,6 +50,10 @@ namespace faraboom.Controllers {
                 massage = null;
 
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             return View ();
         }
         public IActionResult Register () {
@@ -85,6 +89,10 @@ namespace faraboom.Controllers {
 
         public async Task<IActionResult> AddReg (Vm_User VmReg) {
 
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             //test username
 
             if (db.Tbl_User.Any (a => a.UserNameUs == VmReg.UserNameUs)) {
@@ -96,11 +104,19 @@ namespace faraboom.Controllers {
             if (!(Captcha.ValidateCaptchaCode (VmReg.Captcha, HttpContext))) {
                 massage = "کد امنیتی نادرست است";
                 return RedirectToAction ("RegisterAgency");
+<<<<<<< HEAD
             }
             //check pass
             if (VmReg.PasswordUs != VmReg.RePasswordUs) {
                 massage = "رمز های عبور با هم مطابقت ندارد";
 
+=======
+             }
+             //check pass
+              if (VmReg.PasswordUs != VmReg.RePasswordUs)
+             {
+                 massage = "رمز های عبور با هم مطابقت ندارد";
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
                 return RedirectToAction ("RegisterAgency");
             }
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
@@ -127,7 +143,11 @@ namespace faraboom.Controllers {
             db.Tbl_User.Add (TblReg);
             db.SaveChanges ();
 
+<<<<<<< HEAD
             send (VmReg.UserNameUs, VmReg.PasswordUs, VmReg.EmailUS);
+=======
+            send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }
@@ -201,7 +221,12 @@ namespace faraboom.Controllers {
 
         }
 
+<<<<<<< HEAD
         public void send (String user, String pass, String Email) {
+=======
+
+        public void send (String user, String pass,String Email ) {
+>>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
             MimeMessage message = new MimeMessage ();
 
             MailboxAddress from = new MailboxAddress ("نیکاتک",
