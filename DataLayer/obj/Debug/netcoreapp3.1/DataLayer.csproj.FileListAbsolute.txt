@@ -121,3 +121,15 @@ D:\project\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.C
 D:\project\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
 D:\project\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 D:\project\nikatak\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+F:\Farabom\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+F:\Farabom\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+F:\Farabom\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+F:\Farabom\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\Farabom\Faraboom\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+F:\Farabom\Faraboom\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache

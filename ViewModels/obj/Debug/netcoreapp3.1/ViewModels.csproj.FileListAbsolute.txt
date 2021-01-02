@@ -121,3 +121,15 @@ D:\project\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj
 D:\project\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CopyComplete
 D:\project\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
 D:\project\nikatak\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb
+f:\Farabom\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.deps.json
+f:\Farabom\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.dll
+f:\Farabom\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\ViewModels.pdb
+f:\Farabom\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\DataLayer.dll
+f:\Farabom\Faraboom\ViewModels\bin\Debug\netcoreapp3.1\DataLayer.pdb
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csprojAssemblyReference.cache
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfoInputs.cache
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfo.cs
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CoreCompileInputs.cache
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.csproj.CopyComplete
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.dll
+f:\Farabom\Faraboom\ViewModels\obj\Debug\netcoreapp3.1\ViewModels.pdb

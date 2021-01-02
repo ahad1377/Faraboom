@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {}
+    "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj": {}
   },
   "projects": {
-    "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
+    "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-        "outputPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\obj\\",
+        "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
+        "outputPath": "f:\\Farabom\\Faraboom\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -66,21 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj": {
+    "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
+        "projectUniqueName": "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj",
         "projectName": "faraboom",
-        "projectPath": "d:\\project\\nikatak\\Faraboom\\faraboom\\faraboom.csproj",
-        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-        "outputPath": "d:\\project\\nikatak\\Faraboom\\faraboom\\obj\\",
+        "projectPath": "f:\\Farabom\\Faraboom\\faraboom\\faraboom.csproj",
+        "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
+        "outputPath": "f:\\Farabom\\Faraboom\\faraboom\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -91,11 +97,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+              "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
               },
-              "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
-                "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj"
+              "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj"
               }
             }
           }
@@ -168,21 +174,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj": {
+    "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
-        "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
-        "outputPath": "d:\\project\\nikatak\\Faraboom\\ViewModels\\obj\\",
+        "projectPath": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
+        "outputPath": "f:\\Farabom\\Faraboom\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -193,8 +202,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "d:\\project\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
+              "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -228,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
