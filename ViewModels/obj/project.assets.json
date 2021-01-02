@@ -5836,62 +5836,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\Users\\123\\.nuget\\packages\\": {}
-=======
-<<<<<<< HEAD
-=======
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
     "C:\\Users\\Neati\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
->>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-      "projectName": "ViewModels",
-      "projectPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-      "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\ViewModels\\obj\\",
-=======
-<<<<<<< HEAD
-=======
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
       "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\obj\\",
-<<<<<<< HEAD
-=======
-      "projectUniqueName": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-      "projectName": "ViewModels",
-      "projectPath": "f:\\Farabom\\Faraboom\\ViewModels\\ViewModels.csproj",
-      "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
-      "outputPath": "f:\\Farabom\\Faraboom\\ViewModels\\obj\\",
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
->>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
-=======
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-<<<<<<< HEAD
         "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
->>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
-=======
-        "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5902,23 +5863,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "c:\\Users\\123\\Desktop\\farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
-=======
-<<<<<<< HEAD
             "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
               "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
-=======
-            "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj"
->>>>>>> 4216de4f177eb32eced7335a9d6cd39fbeabac66
->>>>>>> c1d48c4b71952dd24422f369fbfb139ad7b38b1b
-=======
-            "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj"
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
             }
           }
         }
@@ -5955,9 +5901,6 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-<<<<<<< HEAD
-  }
-=======
   },
   "logs": [
     {
@@ -5967,5 +5910,4 @@
       "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\ViewModels\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
->>>>>>> dfdba3e7e777c3d176d3de45db28af07cb10a76e
 }

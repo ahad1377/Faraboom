@@ -65,11 +65,8 @@ namespace faraboom.Controllers {
                         MerchantId = "ab99ecd5-bc8a-402f-8ead-b8dca3ed0e35"
                 }, ZarinPal.Class.Payment.Mode.sandbox);
                 return Redirect ($"https://sandbox.zarinpal.com/pg/StartPay/{result.Authority}");
-
             }
-
             //////////////////////////////////////////////////////////////////////////////////
-
         }
         ////////////////////////////////////////////////////////////////////اعتبار سنجی
         public async Task<IActionResult> Validate (string authority, string status) {
