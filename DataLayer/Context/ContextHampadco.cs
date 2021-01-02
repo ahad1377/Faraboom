@@ -22,6 +22,7 @@ using DataLayer.AdminEntities.Teaser;
 using DataLayer.AdminEntities.User;
 using DataLayer.AdminEntities.Baner;
 using DataLayer.AdminEntities.Richat;
+using DataLayer.AdminEntities.Admin;
 
 
 
@@ -60,6 +61,13 @@ namespace DataLayer.Context
 
 
          public DbSet<Tb_GalleryProduct> tb_GalleryProducts  { get; set; }
+
+
+         public DbSet<Tbl_Contact> Tbl_Contacts { get; set; }
+         public DbSet<Tbl_info_account> Tbl_info_accounts { get; set; }
+         public DbSet<Tbl_info_persenal> Tbl_info_persenals { get; set; }
+         public DbSet<Tbl_info_record> Tbl_info_records { get; set; }
+         public DbSet<Tbl_level> Tbl_levels { get; set; }
 
 
 
