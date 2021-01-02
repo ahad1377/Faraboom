@@ -56,11 +56,7 @@ namespace faraboom.Controllers {
             return View ();
         }
         public IActionResult Register () {
-<<<<<<< HEAD
-         
-=======
-          
->>>>>>> 7bff0730b75a28d6604aec40b0d484d68bfe67fe
+
 
             return View ();
         }
@@ -151,10 +147,6 @@ namespace faraboom.Controllers {
             db.SaveChanges ();
 
             send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
-<<<<<<< HEAD
-
-=======
->>>>>>> 7bff0730b75a28d6604aec40b0d484d68bfe67fe
             massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
             return RedirectToAction ("Login");
         }

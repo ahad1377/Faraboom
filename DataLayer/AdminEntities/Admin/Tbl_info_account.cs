@@ -4,6 +4,7 @@ namespace DataLayer.AdminEntities.Admin
     public class Tbl_info_account
     {
         [Key]
+        public int Id { get; set; }
         public string Bankname { get; set; }
         public string Bankcode { get; set; }
          public string Branchname { get; set; }

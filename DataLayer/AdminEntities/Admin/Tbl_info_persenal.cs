@@ -4,8 +4,8 @@ namespace DataLayer.AdminEntities.Admin
     public class Tbl_info_persenal
     {
            [Key]
-        public string Nameper { get; set; }
-        
+        public int Id { get; set; }
+         public string Nameper { get; set; }
          public string Familyper{ get; set; }
          public string Fathernameper{ get; set; }
          public string NationalCode { get; set; }
