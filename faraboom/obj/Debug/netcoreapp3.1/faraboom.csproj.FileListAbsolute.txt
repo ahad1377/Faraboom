@@ -4613,3 +4613,8 @@ c:\Users\123\Desktop\farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\faraboom.
 c:\Users\123\Desktop\farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\faraboom.pdb
 c:\Users\123\Desktop\farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\faraboom.genruntimeconfig.cache
 >>>>>>> 7c58a28aba78ba9f3df35aa71aac8611a26c0192
+f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_contact.cshtml.g.cs
+f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_account.cshtml.g.cs
+f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_documents.cshtml.g.cs
+f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_Level.cshtml.g.cs
+f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_persenal.cshtml.g.cs

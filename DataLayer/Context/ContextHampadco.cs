@@ -24,6 +24,7 @@ using DataLayer.AdminEntities.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
+
 namespace DataLayer.Context {
   public class ContextHampadco : DbContext {
     public ContextHampadco (DbContextOptions<ContextHampadco> options) : base (options) {
@@ -54,12 +55,8 @@ namespace DataLayer.Context {
 
     public DbSet<Tb_GalleryProduct> tb_GalleryProducts { get; set; }
 
-    public DbSet<Tbl_Contact> Tbl_Contacts { get; set; }
-    public DbSet<Tbl_info_account> Tbl_info_accounts { get; set; }
-    public DbSet<Tbl_info_persenal> Tbl_info_persenals { get; set; }
-    public DbSet<Tbl_info_record> Tbl_info_records { get; set; }
-    public DbSet<Tbl_level> Tbl_levels { get; set; }
-     public DbSet<Tbl_info_documents> Tbl_info_documents { get; set; }
+    public DbSet<Tbl_info> Tbl_infos { get; set; }
+  
 
   }
 

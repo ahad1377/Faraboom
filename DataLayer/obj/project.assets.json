@@ -5673,11 +5673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "F:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "f:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "projectPath": "F:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
-      "outputPath": "f:\\Farabom\\Faraboom\\DataLayer\\obj\\",
+      "outputPath": "F:\\Farabom\\Faraboom\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5738,13 +5738,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file f:\\Farabom\\Faraboom\\DataLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
