@@ -4618,3 +4618,15 @@ f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sha
 f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_documents.cshtml.g.cs
 f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_Level.cshtml.g.cs
 f:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Partial_persenal.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Enteghal\B_Paya.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Enteghal\B_Satena.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Enteghal\Card.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Enteghal\Dakheli.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Enteghal\Index.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Charge.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Estelam.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Gabz.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Index.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Gabz_Charge\Shahrdari.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Menu\Index.cshtml.g.cs
+F:\Farabom\Faraboom\faraboom\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sepordeh\Index.cshtml.g.cs

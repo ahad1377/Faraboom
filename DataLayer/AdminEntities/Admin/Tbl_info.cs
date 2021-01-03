@@ -4,7 +4,7 @@ namespace DataLayer.AdminEntities.Admin {
     public class Tbl_info {
 
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
         /////////info personal
         public string Nameper { get; set; }
         public string Familyper { get; set; }
