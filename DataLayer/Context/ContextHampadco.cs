@@ -55,8 +55,17 @@ namespace DataLayer.Context {
 
     public DbSet<Tb_GalleryProduct> tb_GalleryProducts { get; set; }
 
+<<<<<<< HEAD
     public DbSet<Tbl_info> Tbl_infos { get; set; }
   
+=======
+    public DbSet<Tbl_Contact> Tbl_Contacts { get; set; }
+    public DbSet<Tbl_info_account> Tbl_info_accounts { get; set; }
+    public DbSet<Tbl_info_persenal> Tbl_info_persenals { get; set; }
+    public DbSet<Tbl_info_records> Tbl_info_records { get; set; }
+    public DbSet<Tbl_Level> Tbl_Levels { get; set; }
+     public DbSet<Tbl_info_documents> Tbl_info_documents { get; set; }
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
   }
 

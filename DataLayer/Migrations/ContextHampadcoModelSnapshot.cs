@@ -55,6 +55,7 @@ namespace DataLayer.Migrations
                     b.ToTable("Tbl_Adress");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_info", b =>
                 {
                     b.Property<int>("Id")
@@ -162,6 +163,141 @@ namespace DataLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NationalCode")
+=======
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_Contact", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Locationaddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNikatak")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhonelocationN")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Postalcode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("homeaddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tbl_Contacts");
+                });
+
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_Level", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ArshadDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ArshadLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DiplomDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DiplomLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoktoraDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoktoraLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("KardaniDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("KardaniLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("KarshenasiDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("KarshenasiLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tbl_Levels");
+                });
+
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_info_account", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("AccountName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Accounttype")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Bankcode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Bankname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Branchname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Postalcode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Shabanumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("accountnumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cardnumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tbl_info_accounts");
+                });
+
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_info_documents", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Badbackground")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Certificate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Degreeeducation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Document")
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nationalcard")
@@ -170,6 +306,7 @@ namespace DataLayer.Migrations
                     b.Property<string>("Nationalcardback")
                         .HasColumnType("nvarchar(max)");
 
+<<<<<<< HEAD
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
@@ -222,20 +359,106 @@ namespace DataLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("homeaddress")
+=======
+                    b.Property<string>("Postalcode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("maritalstatus")
+                    b.Property<string>("Receipt")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Shaba")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("photos")
                         .HasColumnType("nvarchar(max)");
 
+                    b.HasKey("Id");
+
+                    b.ToTable("Tbl_info_documents");
+                });
+
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_info_persenal", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Datebirth")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Familyen")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Familyper")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fathernameen")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fathernameper")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Gender")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nameen")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nameper")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NationalCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Place")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Religion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Serial")
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("maritalstatus")
+                        .HasColumnType("nvarchar(max)");
+
+<<<<<<< HEAD
+                    b.Property<string>("photos")
+=======
+                    b.HasKey("Id");
+
+                    b.ToTable("Tbl_info_persenals");
+                });
+
+            modelBuilder.Entity("DataLayer.AdminEntities.Admin.Tbl_info_records", b =>
+                {
+                    b.Property<string>("Companyname")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("End")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Typeactivity")
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("start")
                         .HasColumnType("nvarchar(max)");
 
+<<<<<<< HEAD
                     b.HasKey("Id");
 
                     b.ToTable("Tbl_infos");
+=======
+                    b.HasKey("Companyname");
+
+                    b.ToTable("Tbl_info_records");
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
                 });
 
             modelBuilder.Entity("DataLayer.AdminEntities.Agency.Tb_Agency", b =>

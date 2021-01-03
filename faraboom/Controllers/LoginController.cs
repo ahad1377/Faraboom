@@ -21,6 +21,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using MimeKit;
 using ViewModels.AdminViewModel.User;
+<<<<<<< HEAD
 using DataLayer.AdminEntities.Admin;
 
 namespace faraboom.Controllers {
@@ -32,6 +33,8 @@ namespace faraboom.Controllers {
             public LoginController (ContextHampadco _db, IWebHostEnvironment env) {
                 db = _db;
                 _env = env;
+=======
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
             }
 
@@ -70,6 +73,7 @@ namespace faraboom.Controllers {
                     ViewBag.msg = massage;
                     massage = null;
 
+<<<<<<< HEAD
                 }
 
                 if (massage != null) {
@@ -102,6 +106,17 @@ namespace faraboom.Controllers {
                 //check pass
                 if (VmReg.PasswordUs != VmReg.RePasswordUs) {
                     massage = "رمز های عبور با هم مطابقت ندارد";
+=======
+        public IActionResult verify () {
+
+            return View ();
+        }
+
+        public IActionResult RegisterAgency () {
+            if (massage != null) {
+                ViewBag.msg = massage;
+                massage = null;
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
                 }
                 //check pass
@@ -145,10 +160,19 @@ namespace faraboom.Controllers {
             }
                 
 
+<<<<<<< HEAD
             
+=======
+            if (massage != null) {
+                ViewBag.msg = massage;
+                massage = null;
+
+            }
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
                 /////////////
 
+<<<<<<< HEAD
                 send (VmReg.UserNameUs, VmReg.PasswordUs, VmReg.EmailUS);
                 massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
                 return RedirectToAction ("Login");
@@ -165,14 +189,120 @@ namespace faraboom.Controllers {
                 return new FileStreamResult (s, "image/png");
             }
             ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
+=======
+            return View ();
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
             public IActionResult login_check (Vm_User us) {
 
+<<<<<<< HEAD
                 if (Captcha.ValidateCaptchaCode (us.Captcha, HttpContext)) {
                     if (us.UserNameUs == "Admin") {
                         var user = db.Tbl_User.Where (a => a.UserNameUs == "Admin" && a.PasswordUs == "nikatak5250").SingleOrDefault ();
 
                         if (user != null) {
+=======
+
+            //test username
+
+            if (db.Tbl_User.Any (a => a.UserNameUs == VmReg.UserNameUs)) {
+                massage = "این نام کاربری قبلا ثبت شده است ";
+                return RedirectToAction ("RegisterAgency");
+            }
+
+            //test captcha
+            if (!(Captcha.ValidateCaptchaCode (VmReg.Captcha, HttpContext))) {
+                massage = "کد امنیتی نادرست است";
+                return RedirectToAction ("RegisterAgency");
+          }
+            //check pass
+            if (VmReg.PasswordUs != VmReg.RePasswordUs) {
+                massage = "رمز های عبور با هم مطابقت ندارد";
+
+
+             }
+             //check pass
+              if (VmReg.PasswordUs != VmReg.RePasswordUs)
+             {
+                 massage = "رمز های عبور با هم مطابقت ندارد";
+                return RedirectToAction ("RegisterAgency");
+            }
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////upload file
+            string FileExtension1 = Path.GetExtension (VmReg.NameFile.FileName);
+            NewFileName = String.Concat (Guid.NewGuid ().ToString (), FileExtension1);
+            var path = $"{_env.WebRootPath}\\fileupload\\{NewFileName}";
+            using (var stream = new FileStream (path, FileMode.Create)) {
+                await VmReg.NameFile.CopyToAsync (stream);
+            }
+            //////////////////////////end upload file 
+
+            Tb_User TblReg = new Tb_User () {
+                NameFamily = VmReg.NameFamily,
+                CodeMeli = VmReg.CodeMeli,
+                PhoneUs = VmReg.PhoneUs,
+                PasswordUs = VmReg.PasswordUs,
+                EmailUS = VmReg.EmailUS,
+                AddressUs = VmReg.AddressUs,
+                ProfileImageUs = NewFileName,
+                UserNameUs = VmReg.UserNameUs,
+                state = false
+
+            };
+            db.Tbl_User.Add (TblReg);
+            db.SaveChanges ();
+
+
+            send(VmReg.UserNameUs, VmReg.PasswordUs,VmReg.EmailUS);
+            massage = "ثبت با موفقیت انجام شد. ایمیل خود را چک کنید (بخش Spam را  چک کنید)";
+            return RedirectToAction ("Login");
+        }
+        //img captch
+        public FileStreamResult GetCaptchaImage () {
+            int width = 100;
+            int height = 35;
+            var captchaCode = Captcha.GenerateCaptchaCode ();
+            var result = Captcha.GenerateCaptchaImage (width, height, captchaCode);
+            HttpContext.Session.SetString ("CaptchaCode", result.CaptchaCode);
+            string b = HttpContext.Session.GetString ("CaptchaCode");
+            Stream s = new MemoryStream (result.CaptchaByteData);
+            return new FileStreamResult (s, "image/png");
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////AddRegisterAgency
+
+        public IActionResult login_check (Vm_User us) {
+
+            if (us.UserNameUs == "Admin") {
+                var user = db.Tbl_User.Where (a => a.UserNameUs == "Admin" && a.PasswordUs == "nikatak5250").SingleOrDefault ();
+
+                if (user != null) {
+
+                    var claims = new List<Claim> () {
+                    new Claim (ClaimTypes.NameIdentifier, user.Id.ToString ()),
+                    new Claim (ClaimTypes.Name, "سعید عطایی")
+                    };
+
+                    var identity = new ClaimsIdentity (claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    var principal = new ClaimsPrincipal (identity);
+
+                    var properties = new AuthenticationProperties {
+                        IsPersistent = true
+                    };
+
+                    HttpContext.SignInAsync (principal, properties);
+                    return RedirectToAction ("index", "Home", new { area = "adminsite" });
+
+                } else {
+                    eror = "نام کاربری یا رمز عبور شما نادرست است";
+                    return RedirectToAction ("Login");
+                }
+
+            } else {
+                var user = db.Tbl_User.Where (a => a.UserNameUs == us.UserNameUs && a.PasswordUs == us.PasswordUs).SingleOrDefault ();
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
                             var claims = new List<Claim> () {
                             new Claim (ClaimTypes.NameIdentifier, user.Id.ToString ()),
@@ -207,17 +337,31 @@ namespace faraboom.Controllers {
                             new Claim (ClaimTypes.Name, "admin")
                             };
 
+<<<<<<< HEAD
                             var identity = new ClaimsIdentity (claims, CookieAuthenticationDefaults.AuthenticationScheme);
+=======
+
+        public void send (String user, String pass,String Email )
+         {
+            MimeMessage message = new MimeMessage ();
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
                             var principal = new ClaimsPrincipal (identity);
 
+<<<<<<< HEAD
                             var properties = new AuthenticationProperties {
                                 IsPersistent = true
                             };
+=======
+            MailboxAddress to = new MailboxAddress ("User",
+                Email);
+            message.To.Add (to);
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 
                             HttpContext.SignInAsync (principal, properties);
                             return RedirectToAction ("form", "Home", new { area = "admin" });
 
+<<<<<<< HEAD
                         } else {
                             eror = "نام کاربری یا رمز عبور شما نادرست است";
                             return RedirectToAction ("Login");
@@ -262,3 +406,23 @@ namespace faraboom.Controllers {
 
             }
         }
+=======
+            var qtext = db.Tbl_Blog.Where (a => a.Id == 3)?.SingleOrDefault ();
+
+            BodyBuilder bodyBuilder = new BodyBuilder ();
+            bodyBuilder.HtmlBody = qtext.FullTextBlo.Replace ("user", user).Replace ("pass", pass);
+            bodyBuilder.TextBody = "Hello World!";
+            message.Body = bodyBuilder.ToMessageBody ();
+
+            SmtpClient client = new SmtpClient ();
+            client.Connect ("webmail.nikatak.ir", 465, true);
+            client.Authenticate ("info@nikatak.ir", "12345@Iran");
+            client.Send (message);
+            client.Disconnect (true);
+            client.Dispose ();
+
+        }
+
+    }
+}
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1

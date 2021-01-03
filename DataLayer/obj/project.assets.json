@@ -5667,23 +5667,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MEDIA MARK\\.nuget\\packages\\": {},
+    "C:\\Users\\Neati\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "F:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
       "projectPath": "F:\\Farabom\\Faraboom\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\MEDIA MARK\\.nuget\\packages\\",
       "outputPath": "F:\\Farabom\\Faraboom\\DataLayer\\obj\\",
+=======
+      "projectUniqueName": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "projectName": "DataLayer",
+      "projectPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\DataLayer.csproj",
+      "packagesPath": "C:\\Users\\Neati\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\",
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MEDIA MARK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Neati\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5735,8 +5743,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   }
+=======
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Neati\\Desktop\\nikatak\\Faraboom\\DataLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> 36b925a59fbf885088c5e30b68ba137c4623dbc1
 }
